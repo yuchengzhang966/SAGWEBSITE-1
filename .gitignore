@@ -1,22 +1,131 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+config.php
+database.php
+*config*.php
+*.ini
+!.htaccess
+
+# Dependency directories
+/vendor/
+/node_modules/
+/bower_components/
+
+# Composer
+composer.phar
+/vendor/
+
+# NPM
+package-lock.json
+
+# Logs
+/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/dist/
+/build/
+/public/build/
+/public/hot/
+
+# Cache
+/.cache/
+/.sass-cache/
+/.eslintcache
+
+# IDE and editor folders
+/.idea/
+/.vscode/
+/.vs/
+*.sublime-workspace
+*.sublime-project
+.phpintel/
+.phpstorm.meta.php
+_ide_helper.php
+.phpunit.result.cache
+
+# User uploaded content
+/public/uploads/
+/public/media/
+/uploads/
+/media/
+
+# Sensitive or personal info
+/private/
+/personal/
+*.pfx
+*.cert
+*.pem
+*.key
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+.ftpconfig
+.ftpignore
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compressed packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Generated content
+/generated/
+/docs/api/
+
+# WordPress specific (if applicable)
+/wp-config.php
+/wp-content/advanced-cache.php
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/wp-cache-config.php
+/wp-content/plugins/hello.php
+
+# Laravel specific (if applicable)
+/bootstrap/cache/
+/storage/
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Include these files if they appear in ignored directories
+!.gitkeep
