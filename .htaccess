@@ -1,0 +1,13 @@
+# Remove .php extension
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+</IfModule>
+
+# Set default character set
+AddDefaultCharset UTF-8
+
+# Set default index files
+DirectoryIndex index.php index.html 
