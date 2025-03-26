@@ -150,7 +150,7 @@
                             <p>Develop strong coding skills, ace technical interviews, and build projects that impress top tech employers.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Advanced</span>
-                                <span class="duration"><i class="far fa-clock"></i> 30 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 120 hours</span>
                             </div>
                             <a href="services.php#software-engineer" class="read-more">Learn More</a>
                         </div>
@@ -530,18 +530,6 @@
                 </div>
                 
                 <div class="comparison-row">
-                    <div class="comparison-category">Value for money</div>
-                    <div class="comparison-option">
-                        <span class="comparison-icon negative"><i class="fas fa-times"></i></span>
-                        $10,000+
-                    </div>
-                    <div class="comparison-option">
-                        <span class="comparison-icon positive"><i class="fas fa-check"></i></span>
-                        $3,000-5,000
-                    </div>
-                </div>
-                
-                <div class="comparison-row">
                     <div class="comparison-category">Time to results</div>
                     <div class="comparison-option">
                         <span class="comparison-icon negative"><i class="fas fa-times"></i></span>
@@ -597,58 +585,6 @@
     </section>
         <!-- Include the CTA Section -->
         <?php include 'includes/cta.php'; ?>
-
-    <!--
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>Sage<span>Ark</span></h2>
-                    <p>Expert coaching for high-impact careers</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="success-stories.html">Success Stories</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-services">
-                    <h3>Our Services</h3>
-                    <ul>
-                        <li><a href="services.php#consulting">Consulting</a></li>
-                        <li><a href="services.php#investment-banking">Investment Banking</a></li>
-                        <li><a href="services.php#data-science">Data Science</a></li>
-                        <li><a href="services.php#computer-science">Computer Science</a></li>
-                        <li><a href="services.php#college-admissions">College Admissions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Education Ave, New York, NY 10001</p>
-                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-                    <p><i class="fas fa-envelope"></i> info@sageark.com</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-about">
-                    <h3>About SageArk</h3>
-                    <p>SageArk is your all-in-one platform for personal growth, offering structured career programs and personalized education solutions for high net worth families. Powered by our vast network of professionals, educational institutions, and NGO partnerships, we connect students with the exact resources they need to thrive. Our mission is to unlock every individual's full potential through expert guidance, tailored learning experiences, and strategic connections.</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 SageArk. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
- Footer -->
 
     <!-- Include the footer -->
     <?php include 'includes/footer.php'; ?>

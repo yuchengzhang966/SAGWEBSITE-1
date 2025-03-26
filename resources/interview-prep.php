@@ -34,7 +34,7 @@ error_reporting(E_ALL);
             <div class="hero-content text-center">
                 <div class="resource-type-badge">CHECKLIST</div>
                 <h1>Interview Preparation Checklist</h1>
-                <p class="resources-subtitle">A comprehensive guide to help you prepare for and excel in college admission interviews, with actionable steps and expert strategies.</p>
+                <p class="resources-subtitle fw-medium opacity-90">A comprehensive guide to help you prepare for and excel in college admission interviews, with actionable steps and expert strategies.</p>
                 
                 <!-- Metadata inside hero section -->
                 <div class="resource-metadata">

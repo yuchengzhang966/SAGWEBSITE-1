@@ -41,7 +41,7 @@ $page_title = "Consulting 101 Guide | SageArk";
                 <div class="col-lg-8 mx-auto text-center">
                     <span class="badge bg-accent text-white mb-3">GUIDE</span>
                     <h1 class="display-4 fw-bold mb-3">Consulting 101</h1>
-                    <p class="lead mb-4">A concise introduction to management consulting fundamentals and career preparation</p>
+                    <p class="lead mb-4 text-white opacity-90">A concise introduction to management consulting fundamentals and career preparation</p>
                     <div class="d-flex justify-content-center align-items-center small text-white-50">
                         <div class="me-3">
                             <i class="bi bi-clock me-1"></i> Last updated: October 2023
@@ -339,7 +339,11 @@ $page_title = "Consulting 101 Guide | SageArk";
         </div>
     </div>
     
-    <?php include('../includes/footer.php'); ?>
+    <!-- Include the CTA Section -->
+    <?php include '../includes/cta.php'; ?>
+
+    <!-- Include the footer -->
+    <?php include '../includes/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/main.js"></script>
 </body>

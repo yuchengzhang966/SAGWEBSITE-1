@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Ivy League Admissions Package | SageArk";
 $meta_description = "Gain a competitive edge in Ivy League and top-tier university admissions with SageArk's comprehensive admissions consulting, essay development, and interview preparation.";
+
+// Set hero section variables
+$resourceType = "SPECIALIZED SERVICE";
+$title = "Ivy League Admissions";
+$subtitle = "Strategic guidance for gaining admission to elite universities";
+$difficulty = "Top-tier Support";
+$duration = "Comprehensive Strategy";
 ?>
 
 <!DOCTYPE html>
@@ -30,28 +37,7 @@ $meta_description = "Gain a competitive edge in Ivy League and top-tier universi
 <body class="preload service-detail-page">
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
-    
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">PREMIUM SERVICE</span>
-                    <h1 class="display-4 fw-bold mb-3">Ivy League Admissions Package</h1>
-                    <p class="lead mb-4">Personalized guidance and strategic support for gaining admission to the world's most prestigious universities</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-trophy me-1"></i> 95% Success Rate
-                        </div>
-                        <div>
-                            <i class="bi bi-calendar-check me-1"></i> 8-12 Month Program
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Schedule a Consultation</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include '../includes/hero-service.php'; ?>
 
     <div class="container mb-5">
         <div class="row">

@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "College Admission Services | SageArk";
 $meta_description = "Navigate the college admissions process with confidence through SageArk's comprehensive guidance, personalized strategy, and expert support at every step.";
+
+// Set hero section variables
+$resourceType = "COMPREHENSIVE SERVICE";
+$title = "College Admission Services";
+$subtitle = "Strategic guidance and personalized support throughout your entire college application journey";
+$difficulty = "98% College Placement";
+$duration = "Personalized Strategy";
 ?>
 
 <!DOCTYPE html>
@@ -28,31 +35,9 @@ $meta_description = "Navigate the college admissions process with confidence thr
 </head>
 
 <body class="preload service-detail-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+    <?php include '../includes/hero-service.php'; ?>
     
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">COMPREHENSIVE SERVICE</span>
-                    <h1 class="display-4 fw-bold mb-3">College Admission Services</h1>
-                    <p class="lead mb-4">Strategic guidance and personalized support throughout your entire college application journey</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-mortarboard-fill me-1"></i> 98% College Placement
-                        </div>
-                        <div>
-                            <i class="bi bi-award-fill me-1"></i> Personalized Strategy
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Get Started Today</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container mb-5">
         <div class="row">
             <div class="col-lg-8 mx-auto">

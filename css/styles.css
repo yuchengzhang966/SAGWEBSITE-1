@@ -3164,3 +3164,34 @@ body:not(.preload) .continuous-slider {
     background-color: rgba(var(--primary-rgb), 0.1);
     border-radius: 4px;
 }
+
+/* Hero Section Variants */
+.bg-light-blue {
+    background-color: #f0f5ff;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section .display-4 {
+    font-size: 2.75rem;
+    line-height: 1.2;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section .display-4 {
+        font-size: 2rem;
+    }
+    
+    .hero-section .lead {
+        font-size: 1.1rem;
+    }
+}

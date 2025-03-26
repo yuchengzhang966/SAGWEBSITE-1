@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Data Science Program | SageArk";
 $meta_description = "Master machine learning, statistical analysis, and data visualization with SageArk's Data Science Program to secure roles at top technology and analytics companies.";
+
+// Set hero section variables
+$resourceType = "CAREER PROGRAM";
+$title = "Data Science";
+$subtitle = "Master machine learning, statistical analysis, and data-driven decision making";
+$difficulty = "Intermediate";
+$duration = "35";
 ?>
 
 <!DOCTYPE html>
@@ -28,31 +35,9 @@ $meta_description = "Master machine learning, statistical analysis, and data vis
 </head>
 
 <body class="preload service-detail-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+    <?php include '../includes/hero-service.php'; ?>
     
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">CAREER PROGRAM</span>
-                    <h1 class="display-4 fw-bold mb-3">Data Science</h1>
-                    <p class="lead mb-4">Master machine learning, statistical analysis, and data-driven decision making</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-signal me-1"></i> Intermediate
-                        </div>
-                        <div>
-                            <i class="bi bi-clock me-1"></i> 35 hours
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Enroll Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container mb-5">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -447,57 +432,7 @@ $meta_description = "Master machine learning, statistical analysis, and data vis
                 </div>
                 
                 <!-- CTA Section -->
-                <div id="contact" class="mb-5 p-5 bg-light rounded">
-                    <div class="text-center mb-4">
-                        <h2 class="fw-bold mb-3">Ready to Launch Your Data Science Career?</h2>
-                        <p class="mb-4">Enroll now to secure your spot in our next cohort. Space is limited to ensure personalized attention.</p>
-                    </div>
-                    
-                    <form class="needs-validation" novalidate>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="lastName" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="tel" class="form-control" id="phone">
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="background" class="form-label">Current Status</label>
-                                <select class="form-select" id="background" required>
-                                    <option value="" selected disabled>Select your current status</option>
-                                    <option value="student">STEM Student</option>
-                                    <option value="analyst">Business/Data Analyst</option>
-                                    <option value="engineer">Software Engineer</option>
-                                    <option value="professional">Other Professional</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="message" class="form-label">What are your goals in data science?</label>
-                                <textarea class="form-control" id="message" rows="3" required></textarea>
-                            </div>
-                            
-                            <div class="col-12 text-center mt-4">
-                                <button class="btn btn-primary btn-lg px-5" type="submit">Enroll Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <?php include '../includes/cta.php'; ?>
                 
                 <!-- Related Services -->
                 <div class="mb-5">
@@ -533,7 +468,8 @@ $meta_description = "Master machine learning, statistical analysis, and data vis
         </div>
     </div>
     
-    <?php include('../includes/footer.php'); ?>
+    <!-- Include the footer -->
+    <?php include '../includes/footer.php'; ?>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/main.js"></script>

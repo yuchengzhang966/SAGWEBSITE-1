@@ -34,7 +34,7 @@ error_reporting(E_ALL);
             <div class="hero-content text-center">
                 <div class="resource-type-badge">PRACTICE SET</div>
                 <h1>Challenging Consulting Behavioral Interview Questions</h1>
-                <p class="resources-subtitle">Master the most difficult behavioral questions asked in top consulting firm interviews with expert frameworks and example responses.</p>
+                <p class="resources-subtitle fw-medium opacity-90">Master the most difficult behavioral questions asked in top consulting firm interviews with expert frameworks and example responses.</p>
                 
                 <!-- Metadata inside hero section -->
                 <div class="resource-metadata">

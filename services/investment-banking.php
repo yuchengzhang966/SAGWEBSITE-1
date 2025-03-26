@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Investment Banking Program | SageArk";
 $meta_description = "Master financial modeling, valuation techniques, and investment banking interview skills with SageArk's Investment Banking Program.";
+
+// Set hero section variables
+$resourceType = "CAREER PROGRAM";
+$title = "Investment Banking";
+$subtitle = "Master financial modeling, valuation techniques, and interview skills for top-tier banks";
+$difficulty = "Intermediate";
+$duration = "125";
 ?>
 
 <!DOCTYPE html>
@@ -30,28 +37,7 @@ $meta_description = "Master financial modeling, valuation techniques, and invest
 <body class="preload service-detail-page">
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
-    
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">CAREER PROGRAM</span>
-                    <h1 class="display-4 fw-bold mb-3">Investment Banking</h1>
-                    <p class="lead mb-4">Master financial modeling, valuation techniques, and interview skills for top-tier banks</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-signal me-1"></i> Intermediate
-                        </div>
-                        <div>
-                            <i class="bi bi-clock me-1"></i> 25 hours
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Enroll Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include '../includes/hero-service.php'; ?>
 
     <div class="container mb-5">
         <div class="row">

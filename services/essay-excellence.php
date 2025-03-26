@@ -1,7 +1,14 @@
 <?php
 // Page variables
 $page_title = "Essay Excellence Program | SageArk";
-$meta_description = "Transform your college application, scholarship, and academic essays with SageArk's Essay Excellence Program - expert guidance from brainstorming to final polish.";
+$meta_description = "Transform your college application essays...";
+
+// Set hero section variables
+$resourceType = "SPECIALIZED SERVICE";
+$title = "Essay Excellence Program";
+$subtitle = "Craft compelling, authentic essays that captivate readers and showcase your unique voice";
+$difficulty = "Expert Writing Coaches";
+$duration = "Unlimited Revisions";
 ?>
 
 <!DOCTYPE html>
@@ -28,31 +35,9 @@ $meta_description = "Transform your college application, scholarship, and academ
 </head>
 
 <body class="preload service-detail-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+    <?php include '../includes/hero-service.php'; ?>
     
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">SPECIALIZED SERVICE</span>
-                    <h1 class="display-4 fw-bold mb-3">Essay Excellence Program</h1>
-                    <p class="lead mb-4">Craft compelling, authentic essays that captivate readers and showcase your unique voice</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-star-fill me-1"></i> Expert Writing Coaches
-                        </div>
-                        <div>
-                            <i class="bi bi-check2-circle me-1"></i> Unlimited Revisions
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container mb-5">
         <div class="row">
             <div class="col-lg-8 mx-auto">

@@ -130,13 +130,13 @@
                     <!-- College Resource 2 -->
                     <div class="resource-card">
                         <div class="resource-card-image">
-                            <img src="images/resources/essay-writing.jpg" alt="Essay Writing">
-                            <div class="resource-type">TOOLKIT</div>
+                            <img src="../images/resources/essay-writing.jpg" alt="Essay Writing">
+                            <div class="resource-type">GUIDE</div>
                         </div>
                         <div class="resource-card-content">
-                            <h3>College Essay Toolkit</h3>
-                            <p>Templates, examples, and step-by-step guidance for crafting standout college application essays.</p>
-                            <a href="resources/essay-toolkit.php" class="resource-link">View Resource →</a>
+                            <h3>College Essay Writing Guide</h3>
+                            <p>Expert strategies and step-by-step guidance for crafting standout college application essays.</p>
+                            <a href="essay-writing-guide.php" class="resource-link">View Resource →</a>
                         </div>
                     </div>
                     
@@ -477,63 +477,6 @@
         </div>
     </section>
 
-    <!-- Downloadable Resources Section -->
-    <section class="downloadable-resources section-padding">
-        <div class="container">
-            <div class="section-header text-center">
-                <div class="section-tag">FREE DOWNLOADS</div>
-                <h2>Essential <span class="highlight">Downloadable Resources</span></h2>
-                <p>Access our collection of free resources to support your educational and career journey.</p>
-            </div>
-            
-            <div class="download-grid">
-                <div class="download-card">
-                    <div class="download-icon">
-                        <i class="fas fa-file-pdf"></i>
-                    </div>
-                    <div class="download-content">
-                        <h3>College Application Checklist</h3>
-                        <p>Comprehensive checklist to track all components of your college applications.</p>
-                        <a href="downloads/application-checklist.pdf" class="download-link"><i class="fas fa-download"></i> Download PDF</a>
-                    </div>
-                </div>
-                
-                <div class="download-card">
-                    <div class="download-icon">
-                        <i class="fas fa-file-excel"></i>
-                    </div>
-                    <div class="download-content">
-                        <h3>Financial Aid Calculator</h3>
-                        <p>Excel spreadsheet to estimate financial aid packages and compare college costs.</p>
-                        <a href="downloads/financial-aid-calculator.xlsx" class="download-link"><i class="fas fa-download"></i> Download Excel</a>
-                    </div>
-                </div>
-                
-                <div class="download-card">
-                    <div class="download-icon">
-                        <i class="fas fa-file-word"></i>
-                    </div>
-                    <div class="download-content">
-                        <h3>Resume & Cover Letter Templates</h3>
-                        <p>Professional templates optimized for students and recent graduates.</p>
-                        <a href="downloads/resume-pack.zip" class="download-link"><i class="fas fa-download"></i> Download ZIP</a>
-                    </div>
-                </div>
-                
-                <div class="download-card">
-                    <div class="download-icon">
-                        <i class="fas fa-file-pdf"></i>
-                    </div>
-                    <div class="download-content">
-                        <h3>Study Skills Guide</h3>
-                        <p>Comprehensive guide to effective study techniques and academic success strategies.</p>
-                        <a href="downloads/study-skills.pdf" class="download-link"><i class="fas fa-download"></i> Download PDF</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Resource Blog Section -->
     <section class="resource-blog section-padding bg-light">
         <div class="container">
@@ -628,14 +571,8 @@
         </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="cta section-padding">
-        <div class="container text-center">
-            <h2>Need Personalized Guidance?</h2>
-            <p>Our team of experts is ready to provide tailored support for your specific educational and career goals.</p>
-            <a href="contact.php" class="btn btn-primary mt-4">Schedule Consultation</a>
-        </div>
-    </section>
+    <!-- Include the CTA Section -->
+    <?php include 'includes/cta.php'; ?>
 
     <!-- Include the footer -->
     <?php include 'includes/footer.php'; ?>

@@ -208,12 +208,12 @@ error_reporting(E_ALL);
                 <div class="resource-card">
                     <div class="resource-card-image">
                         <img src="../images/resources/essay-writing.jpg" alt="Essay Writing">
-                        <div class="resource-type">TOOLKIT</div>
+                        <div class="resource-type">GUIDE</div>
                     </div>
                     <div class="resource-card-content">
-                        <h3>College Essay Toolkit</h3>
-                        <p>Templates, examples, and step-by-step guidance for crafting standout college application essays.</p>
-                        <a href="essay-toolkit.php" class="resource-link">View Resource →</a>
+                        <h3>College Essay Guide</h3>
+                        <p>Expert strategies and step-by-step guidance for crafting standout college application essays.</p>
+                        <a href="college-essay-guide.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
                 

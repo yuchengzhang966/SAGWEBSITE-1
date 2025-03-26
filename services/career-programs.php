@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Career Programs | SageArk";
 $meta_description = "Accelerate your career with SageArk's specialized career programs in consulting, investment banking, software engineering, data science, product management, and quantitative finance.";
+
+// Set hero section variables
+$resourceType = "CAREER PROGRAMS";
+$title = "Career Programs";
+$subtitle = "Accelerate your career with industry-focused training programs designed by professionals from top companies";
+$difficulty = null; // Not applicable for overview page
+$duration = null; // Not applicable for overview page
 ?>
 
 <!DOCTYPE html>
@@ -28,24 +35,8 @@ $meta_description = "Accelerate your career with SageArk's specialized career pr
 </head>
 
 <body class="preload service-overview-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
-    
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold mb-3">Career Programs</h1>
-                    <p class="lead mb-4">Accelerate your career with industry-focused training programs designed by professionals from top companies</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="#programs" class="btn btn-accent btn-lg me-3">Explore Programs</a>
-                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include '../includes/hero-service.php'; ?>
 
     <div class="container mb-5">
         <!-- Overview Section -->
@@ -122,7 +113,7 @@ $meta_description = "Accelerate your career with SageArk's specialized career pr
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Case interview mastery</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Analytical frameworks</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Mock interviews with feedback</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 20 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="consulting.php" class="btn btn-outline-primary">Learn More</a>

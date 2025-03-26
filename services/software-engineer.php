@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Software Engineering Program | SageArk";
 $meta_description = "Master coding skills, algorithms, system design, and technical interviews with SageArk's Software Engineering Program to secure roles at top tech companies.";
+
+// Set hero section variables
+$resourceType = "CAREER PROGRAM";
+$title = "Software Engineering";
+$subtitle = "Master technical interviews and build impressive projects for top tech companies";
+$difficulty = "Advanced";
+$duration = "120";
 ?>
 
 <!DOCTYPE html>
@@ -30,28 +37,7 @@ $meta_description = "Master coding skills, algorithms, system design, and techni
 <body class="preload service-detail-page">
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
-    
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">CAREER PROGRAM</span>
-                    <h1 class="display-4 fw-bold mb-3">Software Engineering</h1>
-                    <p class="lead mb-4">Master coding, algorithms, and system design to succeed at top tech companies</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-signal me-1"></i> Intermediate
-                        </div>
-                        <div>
-                            <i class="bi bi-clock me-1"></i> 30 hours
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Enroll Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include '../includes/hero-service.php'; ?>
 
     <div class="container mb-5">
         <div class="row">
@@ -447,93 +433,13 @@ $meta_description = "Master coding skills, algorithms, system design, and techni
                 </div>
                 
                 <!-- CTA Section -->
-                <div id="contact" class="mb-5 p-5 bg-light rounded">
-                    <div class="text-center mb-4">
-                        <h2 class="fw-bold mb-3">Ready to Launch Your Software Engineering Career?</h2>
-                        <p class="mb-4">Enroll now to secure your spot in our next cohort. Space is limited to ensure personalized attention.</p>
-                    </div>
-                    
-                    <form class="needs-validation" novalidate>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="lastName" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="tel" class="form-control" id="phone">
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="background" class="form-label">Current Status</label>
-                                <select class="form-select" id="background" required>
-                                    <option value="" selected disabled>Select your current status</option>
-                                    <option value="cs_student">Computer Science Student</option>
-                                    <option value="bootcamp">Bootcamp Graduate</option>
-                                    <option value="self_taught">Self-Taught Programmer</option>
-                                    <option value="professional">Working Professional</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="message" class="form-label">What are your career goals in software engineering?</label>
-                                <textarea class="form-control" id="message" rows="3" required></textarea>
-                            </div>
-                            
-                            <div class="col-12 text-center mt-4">
-                                <button class="btn btn-primary btn-lg px-5" type="submit">Enroll Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
-                <!-- Related Services -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Related Programs & Services</h2>
-                    
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h3 class="h5 card-title">
-                                        <i class="bi bi-graph-up text-primary me-2"></i>
-                                        <a href="data-science.php" class="text-decoration-none">Data Science Program</a>
-                                    </h3>
-                                    <p class="card-text">Master data analysis, machine learning, and AI with our comprehensive data science training program.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h3 class="h5 card-title">
-                                        <i class="bi bi-kanban text-primary me-2"></i>
-                                        <a href="product-management.php" class="text-decoration-none">Product Management Program</a>
-                                    </h3>
-                                    <p class="card-text">Develop the skills to lead product development and strategy at technology companies.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php include '../includes/cta.php'; ?>
             </div>
         </div>
     </div>
     
-    <?php include('../includes/footer.php'); ?>
+    <!-- Include the footer -->
+    <?php include '../includes/footer.php'; ?>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/main.js"></script>

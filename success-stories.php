@@ -67,8 +67,8 @@
         </div>
     </section>
 
-    <!-- Featured Success Stories Section -->
-    <section class="featured-stories section-padding bg-light">
+    <!-- Success Stories Section -->
+    <section class="featured-stories section-padding bg-light d-none">
         <div class="container">
             <div class="section-header text-center">
                 <div class="section-tag">FEATURED STORIES</div>
@@ -255,7 +255,7 @@
                         <li><span>$120K+</span> Average scholarship per student</li>
                         <li><span>65%</span> Students received merit scholarships</li>
                     </ul>
-                    <a href="college-admission.html" class="learn-more">View College Programs →</a>
+                    <a href="/services/college-admission.php" class="learn-more">View College Programs →</a>
                 </div>
                 
                 <!-- Career Programs Stats -->
@@ -270,7 +270,7 @@
                         <li><span>40%</span> Average salary increase</li>
                         <li><span>75+</span> Partner companies for placement</li>
                     </ul>
-                    <a href="career-programs.html" class="learn-more">View Career Programs →</a>
+                    <a href="/services/career-programs.php" class="learn-more">View Career Programs →</a>
                 </div>
                 
                 <!-- Test Prep Stats -->
@@ -285,7 +285,7 @@
                         <li><span>98%</span> Students improved their scores</li>
                         <li><span>85%</span> Students exceeded their target scores</li>
                     </ul>
-                    <a href="test-prep.html" class="learn-more">View Test Prep Programs →</a>
+                    <a href="/services/test-prep.php" class="learn-more">View Test Prep Programs →</a>
                 </div>
             </div>
         </div>
@@ -347,17 +347,12 @@
         </div>
     </section>
 
-    2 -->
-    <section class="cta section-padding">
-        <div class="container text-center">
-            <h2>Ready to Write Your Success Story?</h2>
-            <p>Join the ranks of our successful students. Book a free consultation to discuss your goals and how we can help you achieve them.</p>
-            <a href="contact.html" class="btn btn-primary mt-4">Schedule Consultation</a>
-        </div>
-    </section>
 
 
-    <!-- Include the footer -->
+    <!-- Include the CTA Section -->
+    <?php include 'includes/cta.php'; ?>
+
+    <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
 
     <!-- Scripts -->

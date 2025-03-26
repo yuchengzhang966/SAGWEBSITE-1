@@ -32,11 +32,11 @@ error_reporting(E_ALL);
     <section class="page-hero">
         <div class="container">
             <div class="hero-content text-center">
-                <div class="resource-type-badge">TOOLKIT</div>
-                <h1>College Essay Toolkit</h1>
-                <p class="resources-subtitle">Everything you need to craft compelling college application essays that stand out and showcase your unique strengths and personality.</p>
+                <div class="resource-type-badge">GUIDE</div>
+                <h1>College Essay Writing Guide</h1>
+                <p class="resources-subtitle fw-medium opacity-90">A comprehensive guide to crafting compelling college application essays that showcase your unique strengths and personality.</p>
                 
-                <!-- Metadata moved inside hero section -->
+                <!-- Metadata inside hero section -->
                 <div class="resource-metadata">
                     <div class="metadata-item">
                         <i class="far fa-calendar-alt"></i> Last Updated: May 2023
@@ -55,30 +55,42 @@ error_reporting(E_ALL);
     <!-- Resource Content Section -->
     <section class="resource-content section-padding active">
         <div class="container">
-            <div class="resource-metadata">
-                <div class="metadata-item">
-                    <i class="far fa-calendar-alt"></i> Last Updated: May 2023
-                </div>
-                <div class="metadata-item">
-                    <i class="far fa-clock"></i> Reading Time: 15 minutes
-                </div>
-                <div class="metadata-item">
-                    <i class="fas fa-tag"></i> Category: College Admission
-                </div>
-            </div>
-            
             <div class="resource-main-content">
-                <h2>The Ultimate College Essay Toolkit</h2>
+                <h2>Essential Elements of a Strong College Essay</h2>
                 
-                <p>Your college essay can be the difference between a rejection letter and an acceptance letter. This comprehensive toolkit provides everything you need to craft powerful, authentic essays that showcase your unique voice and experiences.</p>
+                <p>Your college essay is a crucial component of your application that allows admissions officers to understand who you are beyond your grades and test scores. This guide provides comprehensive strategies and insights to help you craft essays that authentically represent your experiences, aspirations, and potential.</p>
 
-                <!-- Placeholder for actual content as mentioned by the user that we can skip this step -->
-                <p>This toolkit includes templates, examples, and step-by-step guidance for creating compelling college application essays.</p>
+                <div class="alert alert-primary my-4">
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <i class="bi bi-info-circle-fill fs-4"></i>
+                        </div>
+                        <div>
+                            <strong>Key Insight:</strong> The most compelling college essays combine authentic storytelling with meaningful reflection, showing both who you are and how you think.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Replace download box with content sections -->
+                <h3>Core Components of an Effective Essay</h3>
                 
-                <div class="resource-download-box">
-                    <h3>Download the Complete Essay Toolkit</h3>
-                    <p>Get our comprehensive essay writing guide with templates, examples, and expert tips.</p>
-                    <a href="../downloads/college-essay-toolkit.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Download PDF</a>
+                <div class="row row-cols-1 g-4 mb-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-header bg-light">
+                                <h4 class="card-title fw-bold mb-0">
+                                    <i class="bi bi-1-circle text-primary me-2"></i>
+                                    Personal Narrative
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p>Share specific experiences that shaped your perspective, values, or goals. Focus on moments that reveal your character and potential impact on the campus community.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more sections for essay components -->
+                    // ... continue with detailed content sections instead of downloadable resources ...
                 </div>
             </div>
         </div>

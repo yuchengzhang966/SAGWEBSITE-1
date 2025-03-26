@@ -2,6 +2,13 @@
 // Page variables
 $page_title = "Consulting Careers Program | SageArk";
 $meta_description = "Master case interviews, business frameworks, and structured problem-solving techniques used by top consulting firms with SageArk's Consulting Careers Program.";
+
+// Set hero section variables
+$resourceType = "CAREER PROGRAM";
+$title = "Consulting Careers";
+$subtitle = "Master case interviews and structured problem-solving techniques for top consulting roles";
+$difficulty = "Intermediate";
+$duration = "125";
 ?>
 
 <!DOCTYPE html>
@@ -28,30 +35,10 @@ $meta_description = "Master case interviews, business frameworks, and structured
 </head>
 
 <body class="preload service-detail-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
     
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">CAREER PROGRAM</span>
-                    <h1 class="display-4 fw-bold mb-3">Consulting Careers</h1>
-                    <p class="lead mb-4">Master case interviews and structured problem-solving techniques for top consulting roles</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-signal me-1"></i> Intermediate
-                        </div>
-                        <div>
-                            <i class="bi bi-clock me-1"></i> 20 hours
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Enroll Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Include hero section template -->
+    <?php include '../includes/hero-service.php'; ?>
 
     <div class="container mb-5">
         <div class="row">

@@ -34,7 +34,7 @@ error_reporting(E_ALL);
             <div class="hero-content text-center">
                 <div class="resource-type-badge">STRATEGY</div>
                 <h1>Networking Strategy Framework</h1>
-                <p class="resources-subtitle">Critical networking problems to address and common mistakes to avoid for more effective professional connections.</p>
+                <p class="resources-subtitle fw-medium opacity-90">Critical networking problems to address and common mistakes to avoid for more effective professional connections.</p>
                 
                 <!-- Metadata inside hero section -->
                 <div class="resource-metadata">

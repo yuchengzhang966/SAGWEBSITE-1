@@ -1,7 +1,14 @@
 <?php
 // Page variables
-$page_title = "Interview Preparation Program | SageArk";
-$meta_description = "Master the art of interviewing with SageArk's comprehensive Interview Preparation Program - personalized coaching for college admissions, job interviews, and more.";
+$page_title = "Interview Preparation | SageArk";
+$meta_description = "Master your interview skills with expert coaching, mock interviews, and personalized feedback to help you succeed in competitive interviews.";
+
+// Set hero section variables
+$resourceType = "SPECIALIZED SERVICE";
+$title = "Interview Preparation";
+$subtitle = "Master interview techniques and build confidence with expert coaching and personalized feedback";
+$difficulty = "Expert Coaches";
+$duration = "Personalized Practice";
 ?>
 
 <!DOCTYPE html>
@@ -28,31 +35,9 @@ $meta_description = "Master the art of interviewing with SageArk's comprehensive
 </head>
 
 <body class="preload service-detail-page">
-    <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+    <?php include '../includes/hero-service.php'; ?>
     
-    <!-- Hero Section -->
-    <div class="hero-section bg-primary text-white py-5 mb-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">SPECIALIZED SERVICE</span>
-                    <h1 class="display-4 fw-bold mb-3">Interview Preparation Program</h1>
-                    <p class="lead mb-4">Develop the confidence and skills to excel in any interview scenario</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50 mb-4">
-                        <div class="me-3">
-                            <i class="bi bi-camera-video-fill me-1"></i> Recorded Practice Sessions
-                        </div>
-                        <div>
-                            <i class="bi bi-person-check-fill me-1"></i> Expert Interview Coaches
-                        </div>
-                    </div>
-                    <a href="#contact" class="btn btn-accent btn-lg">Schedule Your First Session</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container mb-5">
         <div class="row">
             <div class="col-lg-8 mx-auto">

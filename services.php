@@ -56,7 +56,7 @@
                     <p>Master case interviews, business frameworks, and structured problem-solving techniques used by top consulting firms.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Intermediate</div>
-                        <div class="duration"><i class="far fa-clock"></i> 20 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/consulting.php" class="learn-more">Learn More →</a>
                 </div>
@@ -73,7 +73,7 @@
                     <p>Develop financial modeling skills, valuation techniques, and industry knowledge required for investment banking roles.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Intermediate</div>
-                        <div class="duration"><i class="far fa-clock"></i> 25 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/investment-banking.php" class="learn-more">Learn More →</a>
                 </div>
@@ -87,10 +87,10 @@
                         </div>
                     </div>
                     <h3>Software Engineer</h3>
-                    <p>Strengthen your coding skills, ace technical interviews, and build impressive projects for top tech companies.</p>
+                    <p>Develop strong coding skills, ace technical interviews, and build projects that impress top tech employers.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Advanced</div>
-                        <div class="duration"><i class="far fa-clock"></i> 30 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 120 hours</div>
                     </div>
                     <a href="services/software-engineer.php" class="learn-more">Learn More →</a>
                 </div>
@@ -106,8 +106,8 @@
                     <h3>Data Science</h3>
                     <p>Build analytical expertise in statistics, programming, and machine learning for data science positions.</p>
                     <div class="program-meta">
-                        <div class="difficulty"><i class="fas fa-signal"></i> Intermediate</div>
-                        <div class="duration"><i class="far fa-clock"></i> 40 hours</div>
+                        <div class="difficulty"><i class="fas fa-signal"></i> Advanced</div>
+                        <div class="duration"><i class="far fa-clock"></i> 115 hours</div>
                     </div>
                     <a href="services/data-science.php" class="learn-more">Learn More →</a>
                 </div>
@@ -261,15 +261,8 @@
         </div>
     </section>
 
-    <!-- Call to Action Section -->
-    <section class="cta section-padding">
-        <div class="container text-center">
-            <h2>Ready to Start Your Journey?</h2>
-            <p>Book a free 30-minute consultation to discuss your goals and how we can help you achieve them.</p>
-            <a href="contact.php" class="btn btn-primary mt-4">Schedule Consultation</a>
-        </div>
-    </section>
-
+    <!-- Include the CTA Section -->
+    <?php include 'includes/cta.php'; ?>
 
     <!-- Include the footer -->
     <?php include 'includes/footer.php'; ?>
