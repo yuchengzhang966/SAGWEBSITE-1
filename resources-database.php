@@ -1,65 +1,22 @@
-<?php
-// Get the selected category from URL parameter (if provided)
-$selectedCategory = isset($_GET['category']) ? $_GET['category'] : 'all';
-$selectedType = isset($_GET['type']) ? $_GET['type'] : 'all';
-
-// Enable error reporting for debugging
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resources Database - SageArk</title>
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
+    <title>SageArk - Coaching for High-Impact Careers</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/resources.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Additional styles for resource database page */
-        .resource-filters {
-            display: flex;
-            justify-content: space-between;
-            margin: 20px 0 30px;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-
-        .filter-group {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .filter-group label {
-            font-weight: 500;
-            margin-bottom: 0;
-        }
-
-        .filter-group select {
-            padding: 8px 15px;
-            border: 1px solid #dee2e6;
-            border-radius: 4px;
-            background-color: white;
-        }
-
-        #clear-filters {
-            padding: 8px 15px;
-        }
-
         .resource-database-grid {
             min-height: 400px;
         }
@@ -84,39 +41,9 @@ error_reporting(E_ALL);
     <section class="resource-database section-padding">
         <div class="container">
             <!-- Category Tabs -->
-            <div class="resource-nav-container">
-                <div class="resource-nav">
-                    <button class="resource-tab <?php echo $selectedCategory == 'all' ? 'active' : ''; ?>" data-category="all">All Resources</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'college' ? 'active' : ''; ?>" data-category="college">College Admission</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'careers' ? 'active' : ''; ?>" data-category="careers">Careers</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'personal' ? 'active' : ''; ?>" data-category="personal">Personal Growth</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'test-prep' ? 'active' : ''; ?>" data-category="test-prep">Test Preparation</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'downloads' ? 'active' : ''; ?>" data-category="downloads">Downloads</button>
-                    <button class="resource-tab <?php echo $selectedCategory == 'blog' ? 'active' : ''; ?>" data-category="blog">Blog</button>
-                </div>
-            </div>
-            
-            <!-- Filter Options -->
-            <div class="resource-filters">
-                <div class="filter-group">
-                    <label>Resource Type:</label>
-                    <select id="resource-type-filter">
-                        <option value="all" <?php echo $selectedType == 'all' ? 'selected' : ''; ?>>All Types</option>
-                        <option value="guide" <?php echo $selectedType == 'guide' ? 'selected' : ''; ?>>Guide</option>
-                        <option value="template" <?php echo $selectedType == 'template' ? 'selected' : ''; ?>>Template</option>
-                        <option value="toolkit" <?php echo $selectedType == 'toolkit' ? 'selected' : ''; ?>>Toolkit</option>
-                        <option value="checklist" <?php echo $selectedType == 'checklist' ? 'selected' : ''; ?>>Checklist</option>
-                        <option value="practice" <?php echo $selectedType == 'practice' ? 'selected' : ''; ?>>Practice Set</option>
-                        <option value="worksheet" <?php echo $selectedType == 'worksheet' ? 'selected' : ''; ?>>Worksheet</option>
-                        <option value="database" <?php echo $selectedType == 'database' ? 'selected' : ''; ?>>Database</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <button id="clear-filters" class="btn btn-sm btn-outline-secondary">Clear Filters</button>
-                </div>
-            </div>
-            
+       
+
+       
             <!-- Resources Grid -->
             <div class="resource-grid resource-database-grid">
                 <!-- College Resources -->
@@ -213,17 +140,67 @@ error_reporting(E_ALL);
                         <img src="images/resources/resume.jpg" alt="Resume Templates">
                         <div class="resource-type">TEMPLATE</div>
                     </div>
-                    <div class="resource-card-content">
-                        <h3>Resume & Cover Letter Templates</h3>
+                    <div class="resource-card-content"data-category="downloads" data-type="template">
+                        <h3>Resume Red flags</h3>
                         <p>Professional templates optimized for students and recent graduates.</p>
-                        <a href="downloads/resume-pack.zip" class="resource-link">Download Resource →</a>
+                        <a href="resources/resume-templates.php" class="resource-link">Download Resource →</a>
                     </div>
                 </div>
                 
-                <!-- Add more resource cards for each category -->
+                <!-- Interview Preparation Checklist -->
+                <div class="resource-card" data-category="college" data-type="checklist">
+                    <div class="resource-card-image">
+                        <img src="images/resources/college-interview.jpg" alt="College Interviews">
+                        <div class="resource-type">CHECKLIST</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Interview Preparation Checklist</h3>
+                        <p>Comprehensive preparation guide with common questions and strategies for college interviews.</p>
+                        <a href="resources/interview-prep.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+                
+                <!-- Blog Resources -->
+                <div class="resource-card" data-category="blog" data-type="article">
+                    <div class="resource-card-image">
+                        <img src="images/blog/college-trend.jpg" alt="College Admissions Trends">
+                        <div class="resource-type">ARTICLE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>5 College Admissions Trends to Watch in 2024</h3>
+                        <p>How test-optional policies, holistic review, and other emerging trends are reshaping college admissions.</p>
+                        <a href="blog/admissions-trends-2024.php" class="resource-link">Read Article →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="blog" data-type="article">
+                    <div class="resource-card-image">
+                        <img src="images/blog/ai-careers.jpg" alt="AI Careers">
+                        <div class="resource-type">ARTICLE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>The Rise of AI: Career Opportunities for Recent Graduates</h3>
+                        <p>Exploring the growing demand for AI talent and how students can position themselves for these roles.</p>
+                        <a href="blog/ai-careers.php" class="resource-link">Read Article →</a>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="blog" data-type="article">
+                    <div class="resource-card-image">
+                        <img src="images/blog/interview-mistakes.jpg" alt="Interview Mistakes">
+                        <div class="resource-type">ARTICLE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Top 7 Interview Mistakes and How to Avoid Them</h3>
+                        <p>Common pitfalls that candidates make during interviews and strategies to present your best self.</p>
+                        <a href="blog/interview-mistakes.php" class="resource-link">Read Article →</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Include the CTA Section -->
+    <?php include 'includes/cta.php'; ?>
 
     <!-- Include the footer -->
     <?php include 'includes/footer.php'; ?>
@@ -236,22 +213,15 @@ error_reporting(E_ALL);
             // Handle category tab clicks
             const tabs = document.querySelectorAll('.resource-tab');
             const resourceCards = document.querySelectorAll('.resource-card');
-            const typeFilter = document.getElementById('resource-type-filter');
-            const clearFiltersBtn = document.getElementById('clear-filters');
             
             // Function to filter resources
             function filterResources() {
                 const selectedCategory = document.querySelector('.resource-tab.active').getAttribute('data-category');
-                const selectedType = typeFilter.value;
                 
                 resourceCards.forEach(card => {
                     const cardCategory = card.getAttribute('data-category');
-                    const cardType = card.getAttribute('data-type');
                     
-                    const categoryMatch = selectedCategory === 'all' || cardCategory === selectedCategory;
-                    const typeMatch = selectedType === 'all' || cardType === selectedType;
-                    
-                    if (categoryMatch && typeMatch) {
+                    if (selectedCategory === 'all' || cardCategory === selectedCategory) {
                         card.style.display = 'block';
                     } else {
                         card.style.display = 'none';
@@ -269,32 +239,9 @@ error_reporting(E_ALL);
                     tab.classList.add('active');
                     filterResources();
                     
-                    // Update URL without reloading the page
-                    const category = tab.getAttribute('data-category');
-                    const url = new URL(window.location);
-                    url.searchParams.set('category', category);
-                    window.history.pushState({}, '', url);
+                    // This keeps the base URL without parameters
+                    window.history.pushState({}, '', window.location.pathname);
                 });
-            });
-            
-            typeFilter.addEventListener('change', () => {
-                filterResources();
-                
-                // Update URL without reloading the page
-                const url = new URL(window.location);
-                url.searchParams.set('type', typeFilter.value);
-                window.history.pushState({}, '', url);
-            });
-            
-            clearFiltersBtn.addEventListener('click', () => {
-                // Reset to all categories and types
-                tabs.forEach(t => t.classList.remove('active'));
-                document.querySelector('[data-category="all"]').classList.add('active');
-                typeFilter.value = 'all';
-                filterResources();
-                
-                // Update URL without reloading the page
-                window.history.pushState({}, '', window.location.pathname);
             });
         });
     </script>

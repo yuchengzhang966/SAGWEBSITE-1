@@ -338,14 +338,14 @@ $duration = null; // Not applicable for overview page
                 <h2 class="fw-bold">What Our Graduates Say</h2>
                 <p class="lead">Success stories from participants who transformed their careers</p>
             </div>
-            
+   
             <div class="row g-4">
                 <div class="col-md-6">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body p-4">
                             <div class="d-flex mb-4">
                                 <div class="flex-shrink-0">
-                                    <img src="../images/testimonial-1.jpg" alt="Testimonial" class="rounded-circle" width="60" height="60">
+                                    <img src="../images/testimonials/testimonial-1.jpg" alt="Testimonial" class="rounded-circle" width="60" height="60">
                                 </div>
                                 <div class="ms-3">
                                     <h4 class="h5 mb-1">Jennifer R.</h4>

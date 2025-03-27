@@ -299,47 +299,6 @@ $duration = "40";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-9.jpg" alt="Dr. Michael Chen" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Michael Chen</h3>
-                                            <p class="text-muted mb-0">Former Quantitative Researcher, Two Sigma</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Chen spent 7 years developing statistical arbitrage strategies at Two Sigma after earning his Ph.D. in Applied Mathematics from MIT. He specializes in machine learning applications for high-frequency trading and has published research in computational finance journals. He has mentored dozens of aspiring quants who now work at top firms.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-10.jpg" alt="Dr. Sophia Rodriguez" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Sophia Rodriguez</h3>
-                                            <p class="text-muted mb-0">Former VP of Quantitative Research, Goldman Sachs</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Rodriguez led a team of quantitative researchers at Goldman Sachs' securities division for 6 years. With a Ph.D. in Financial Engineering from Columbia University, she specializes in derivatives pricing, fixed income models, and algorithmic execution strategies. She brings extensive experience in both model development and practical implementation.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

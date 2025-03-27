@@ -449,64 +449,19 @@ $duration = "32";
                         </div>
                     </div>
                 </div>
-                
-                <!-- CTA Section -->
-                <div id="contact" class="mb-5 p-5 bg-light rounded">
-                    <div class="text-center mb-4">
-                        <h2 class="fw-bold mb-3">Ready to Launch Your Product Management Career?</h2>
-                        <p class="mb-4">Enroll now to secure your spot in our next cohort. Space is limited to ensure personalized attention.</p>
-                    </div>
-                    
-                    <form class="needs-validation" novalidate>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label for="firstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" id="firstName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="lastName" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="tel" class="form-control" id="phone">
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="background" class="form-label">Current Role</label>
-                                <select class="form-select" id="background" required>
-                                    <option value="" selected disabled>Select your current role</option>
-                                    <option value="engineering">Engineering</option>
-                                    <option value="design">Design</option>
-                                    <option value="marketing">Marketing</option>
-                                    <option value="data_analytics">Data Analytics</option>
-                                    <option value="consulting">Consulting</option>
-                                    <option value="student">Student</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-                            
-                            <div class="col-12">
-                                <label for="message" class="form-label">Why are you interested in product management?</label>
-                                <textarea class="form-control" id="message" rows="3" required></textarea>
-                            </div>
-                            
-                            <div class="col-12 text-center mt-4">
-                                <button class="btn btn-primary btn-lg px-5" type="submit">Enroll Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Move the CTA section outside of the container -->
+    <?php include '../includes/cta.php'; ?>
+    
+    <!-- Re-open the default container for Related Programs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
                 <!-- Related Services -->
-                <div class="mb-5">
+                <div class="mb-5 mt-5">
                     <h2 class="fw-bold mb-4">Related Programs & Services</h2>
                     
                     <div class="row row-cols-1 row-cols-md-2 g-4">

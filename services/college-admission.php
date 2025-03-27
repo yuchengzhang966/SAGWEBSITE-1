@@ -296,47 +296,6 @@ $duration = "Personalized Strategy";
                     </div>
                 </div>
                 
-                <!-- Meet Your Counselors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your College Counselors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/counselor-1.jpg" alt="Jennifer Harmon" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Jennifer Harmon, M.Ed.</h3>
-                                            <p class="text-muted mb-0">Former Admissions Director, Selective Liberal Arts College</p>
-                                        </div>
-                                    </div>
-                                    <p>Jennifer brings 15 years of college admissions experience, including 8 years as an admissions director where she evaluated thousands of applications and chaired the selection committee. Her expertise spans selective liberal arts colleges and research universities, giving her insight into diverse institutional priorities. Jennifer specializes in helping students identify and articulate their unique strengths and find their best-fit college environments.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/counselor-2.jpg" alt="Michael Washington" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Michael Washington, Ph.D.</h3>
-                                            <p class="text-muted mb-0">Certified College Counselor & Educational Consultant</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Washington is a nationally recognized college counselor with certification from the Independent Educational Consultants Association. With a Ph.D. in Educational Psychology, he blends academic research with practical guidance to help students navigate the complex college landscape. Michael excels at working with students who have learning differences, specialized talents, or unique educational backgrounds, helping them find institutions that will support their specific needs and goals.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

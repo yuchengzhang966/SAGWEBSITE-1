@@ -288,47 +288,6 @@ $duration = "Unlimited Revisions";
                     </div>
                 </div>
                 
-                <!-- Meet Your Coaches -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Writing Coaches</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/writing-coach-1.jpg" alt="Dr. Rebecca Martinez" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Rebecca Martinez</h3>
-                                            <p class="text-muted mb-0">Former University Writing Center Director</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Martinez holds a Ph.D. in English Composition from the University of Michigan and has over 15 years of experience teaching writing at the university level. As the former director of a prestigious university writing center, she has trained dozens of writing consultants and helped thousands of students develop their writing skills. She specializes in personal narratives, argumentative essays, and helping writers find their authentic voice.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/writing-coach-2.jpg" alt="James Wilson" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">James Wilson</h3>
-                                            <p class="text-muted mb-0">Published Author & Admissions Essay Specialist</p>
-                                        </div>
-                                    </div>
-                                    <p>James is a published author and professional writer with specialized experience in college admissions essays. A graduate of Princeton University, he has worked with hundreds of students on applications to top universities, helping them craft compelling narratives that highlight their unique qualities. His approach combines storytelling techniques with strategic positioning to help applicants stand out in competitive admissions processes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

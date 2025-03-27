@@ -300,47 +300,6 @@ $duration = "125";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-1.jpg" alt="Sarah Matthews" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Sarah Matthews</h3>
-                                            <p class="text-muted mb-0">Former McKinsey Engagement Manager</p>
-                                        </div>
-                                    </div>
-                                    <p>Sarah spent 5 years at McKinsey & Company working across technology and financial services sectors. She has conducted over 300 case interviews and helped dozens of candidates secure offers at top consulting firms.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-2.jpg" alt="David Chen" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">David Chen</h3>
-                                            <p class="text-muted mb-0">Former BCG Consultant</p>
-                                        </div>
-                                    </div>
-                                    <p>David worked at BCG for 4 years specializing in healthcare and consumer goods. An MBA graduate from Wharton, he now focuses on helping ambitious candidates master the case interview process through structured methodology.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

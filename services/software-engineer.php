@@ -299,47 +299,6 @@ $duration = "120";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-5.jpg" alt="Michael Zhang" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Michael Zhang</h3>
-                                            <p class="text-muted mb-0">Former Senior Engineer, Google</p>
-                                        </div>
-                                    </div>
-                                    <p>Michael spent 7 years at Google working on search infrastructure and cloud services. He has conducted over 200 technical interviews and mentored dozens of engineers. He holds a master's degree in Computer Science from Stanford and specializes in distributed systems and algorithms.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-6.jpg" alt="Aisha Johnson" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Aisha Johnson</h3>
-                                            <p class="text-muted mb-0">Former Tech Lead, Amazon</p>
-                                        </div>
-                                    </div>
-                                    <p>Aisha was a Tech Lead at Amazon for 5 years, working on e-commerce platforms and recommendation systems. She has extensive experience in system design and software architecture. With a background in Computer Science from MIT, she now focuses on helping aspiring software engineers master technical interviews.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>
@@ -431,9 +390,47 @@ $duration = "120";
                         </div>
                     </div>
                 </div>
-                
-                <!-- CTA Section -->
-                <?php include '../includes/cta.php'; ?>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Move the CTA section outside of the container -->
+    <?php include '../includes/cta.php'; ?>
+    
+    <!-- Re-open the default container for Related Programs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- Related Services -->
+                <div class="mb-5 mt-5">
+                    <h2 class="fw-bold mb-4">Related Programs & Services</h2>
+                    
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">
+                                        <i class="bi bi-graph-up text-primary me-2"></i>
+                                        <a href="data-science.php" class="text-decoration-none">Data Science Program</a>
+                                    </h3>
+                                    <p class="card-text">Master data analysis, machine learning, and statistical modeling for roles in data science and analytics.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h3 class="h5 card-title">
+                                        <i class="bi bi-briefcase-fill text-primary me-2"></i>
+                                        <a href="product-management.php" class="text-decoration-none">Product Management Program</a>
+                                    </h3>
+                                    <p class="card-text">Learn product development, user research, and go-to-market strategies for product management roles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

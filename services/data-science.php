@@ -298,47 +298,6 @@ $duration = "35";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-7.jpg" alt="Dr. Rebecca Liu" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Rebecca Liu</h3>
-                                            <p class="text-muted mb-0">Former Data Science Lead, Facebook</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Liu has over 8 years of industry experience leading data science teams at Facebook and Netflix. She holds a Ph.D. in Statistics from Stanford University and specializes in machine learning algorithms and experimentation frameworks. She has published multiple papers in top AI conferences and mentored dozens of successful data scientists.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-8.jpg" alt="James Wilson" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">James Wilson</h3>
-                                            <p class="text-muted mb-0">Former Principal Data Scientist, Amazon</p>
-                                        </div>
-                                    </div>
-                                    <p>James spent 6 years at Amazon developing recommendation systems and predictive models for retail operations. With an MS in Computer Science from MIT and extensive experience in natural language processing and deep learning, he now focuses on helping aspiring data scientists develop practical skills for industry applications.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>
@@ -430,12 +389,19 @@ $duration = "35";
                         </div>
                     </div>
                 </div>
-                
-                <!-- CTA Section -->
-                <?php include '../includes/cta.php'; ?>
-                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Move the CTA section outside of the container -->
+    <?php include '../includes/cta.php'; ?>
+    
+    <!-- Re-open the default container for Related Programs -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
                 <!-- Related Services -->
-                <div class="mb-5">
+                <div class="mb-5 mt-5">
                     <h2 class="fw-bold mb-4">Related Programs & Services</h2>
                     
                     <div class="row row-cols-1 row-cols-md-2 g-4">

@@ -299,47 +299,6 @@ $duration = "125";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-3.jpg" alt="Alex Morgan" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Alex Morgan</h3>
-                                            <p class="text-muted mb-0">Former Vice President, Goldman Sachs</p>
-                                        </div>
-                                    </div>
-                                    <p>Alex spent 8 years at Goldman Sachs in the Technology, Media & Telecommunications group, executing over $50 billion in M&A transactions and capital raises. An MBA graduate from Harvard Business School, he specializes in financial modeling and transaction analysis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-4.jpg" alt="Priya Sharma" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Priya Sharma</h3>
-                                            <p class="text-muted mb-0">Former Associate, Morgan Stanley</p>
-                                        </div>
-                                    </div>
-                                    <p>Priya worked at Morgan Stanley's M&A group for 5 years, focusing on healthcare and consumer retail sectors. She has extensive experience in valuation, financial modeling, and has been involved in recruiting and interviewing candidates for analyst and associate positions.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

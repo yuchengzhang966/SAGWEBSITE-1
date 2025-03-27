@@ -288,47 +288,6 @@ $duration = "Personalized Practice";
                     </div>
                 </div>
                 
-                <!-- Meet Your Coaches -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Interview Coaches</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/interview-coach-1.jpg" alt="Alexandra Richards" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Alexandra Richards</h3>
-                                            <p class="text-muted mb-0">Former Corporate Recruiter & Career Coach</p>
-                                        </div>
-                                    </div>
-                                    <p>Alexandra brings over a decade of experience as a senior recruiter for Fortune 500 companies, where she interviewed thousands of candidates from entry-level to executive positions. Her expertise spans multiple industries including technology, finance, and healthcare. Alexandra specializes in helping clients master behavioral interviews, navigate complex scenarios, and present their professional accomplishments with impact and authenticity.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/interview-coach-2.jpg" alt="Dr. Marcus Thompson" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Marcus Thompson</h3>
-                                            <p class="text-muted mb-0">Former Admissions Director & University Dean</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Thompson served as an admissions director at a prestigious university and later as an academic dean, giving him unique insight into academic interview processes. With a Ph.D. in Educational Psychology, he combines his practical experience with theoretical understanding of effective communication and impression formation. Dr. Thompson specializes in college admissions interviews, graduate school preparation, and scholarship interview coaching.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>
