@@ -26,6 +26,14 @@
     --text-color: #3E3E3E;            /* Main text color */
     --text-light: #6E6E6E;            /* Secondary text color */
     --white: #ffffff;
+    --background-color: #ffffff;      /* Main background color */
+    --card-bg: #F9F9F9;
+    --tag-bg: rgba(0, 86, 210, 0.1);  /* Light blue for service icons */
+    --border-color: rgba(0, 0, 0, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 6px -1px var(--shadow-color), 0 2px 4px -1px var(--shadow-color);
+    --shadow-lg: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -2px var(--shadow-color);
+    
     --spacing-xs: 0rem;               /* When to use: For minimal or no spacing between tightly related elements, like tabs or button groups */
     --spacing-sm: 0.5rem;             /* When to use: For small gaps between related elements, margins after headings, list items spacing */
     --spacing-md: 2rem;               /* When to use: For standard content spacing, paragraph margins, container padding, form elements */
@@ -33,18 +41,13 @@
     --spacing-xl: 5rem;               /* When to use: For section header margins, space between major content blocks, bottom spacing of hero sections */
     --spacing-xxl: 7rem;              /* When to use: For major section padding, space before/after full-width sections, top padding with fixed headers */
     --spacing-xxxl: 9rem;             /* When to use: For dramatic spacing in hero sections, extreme emphasis, or special case visual impact */
+    
     --card-padding: 1.5rem;
     --section-padding: 1rem 0;
     --transition: all 0.3s ease;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
-    --border-radius: 8px;
-    --card-bg: #F9F9F9;
-    --tag-bg: rgba(0, 86, 210, 0.1);  /* Light blue for service icons */
-    --accent-light: #00c6fb;
-    --secondary-dark: #00296e;
     --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --card-border: 1px solid rgba(0, 86, 210, 0.1);
+    
     --font-xs: 0.875rem;
     --font-sm: 1rem;
     --font-md: 1.125rem;
@@ -61,14 +64,12 @@
 
 /**
  * Base body styles
- * Sets the default font family, line height, and text color
- * Prevents horizontal overflow to avoid unwanted scrollbars
  */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.7;
     color: var(--text-color);
-    background-color: var(--white);
+    background-color: var(--background-color);
     overflow-x: hidden;
 }
 
@@ -81,6 +82,10 @@ a {
     text-decoration: none;
     color: var(--primary-color);
     transition: var(--transition);
+}
+
+a:hover {
+    color: var(--secondary-color);
 }
 
 ul {
@@ -409,13 +414,11 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     overflow: hidden;
-    z-index: 0;
-    pointer-events: none;
-    background: rgb(199,225,255);
-    background: linear-gradient(0deg, rgba(199,225,255,1) 0%, rgba(220,236,255,1) 53%, rgba(255,255,255,0) 100%); }
+    z-index: 1;
+}
 
 .hero-circles {
     position: absolute;
@@ -2966,30 +2969,7 @@ body:not(.preload) .continuous-slider {
     stroke: #0066ff;
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #1a1a1a;
-    }
-    
-    .container {
-        background-color: #2a2a2a;
-    }
-
-    .HeroSection_stroke100Dark1000__rmtFo {
-        stroke: #4d94ff;
-    }
-
-    .HeroSection_fill25Stroke100DarkFill1000Stroke900__Rnq49 {
-        fill: rgba(77, 148, 255, 0.05);
-        stroke: #4d94ff;
-    }
-
-    .HeroSection_fill100DarkFill1000Stroke900__Y91Tt {
-        fill: #4d94ff;
-        stroke: #4d94ff;
-    }
-}
+/* Hero background */
 .hero-bg {
     position: absolute;
     top: 0;
@@ -2999,7 +2979,10 @@ body:not(.preload) .continuous-slider {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    z-index: 1;
+    z-index: 0;
+    pointer-events: none;
+    background: rgb(199,225,255);
+    background: linear-gradient(0deg, rgba(199,225,255,1) 0%, rgba(220,236,255,1) 53%, rgba(255,255,255,0) 100%);
 }
 
 /* Add responsive styles for the map container */
@@ -3107,14 +3090,14 @@ body:not(.preload) .continuous-slider {
 
 /* Services Page Styles */
 .page-hero {
-    background-color: var(--primary-light);
+    background-color: var(--light-color);
     padding: 80px 0;
     position: relative;
     overflow: hidden;
 }
 
 .services-hero {
-    background-color: var(--primary-light);
+    background-color: var(--light-color);
     padding: 80px 0;
     position: relative;
     overflow: hidden;
@@ -3149,7 +3132,7 @@ body:not(.preload) .continuous-slider {
     text-transform: uppercase;
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
-    background-color: rgba(var(--primary-rgb), 0.1);
+    background-color: var(--tag-bg);
     padding: 0.3rem 0.8rem;
     border-radius: 4px;
 }
@@ -3161,7 +3144,7 @@ body:not(.preload) .continuous-slider {
     text-align: center;
     padding: 0.5rem 1rem;
     margin-bottom: var(--spacing-md);
-    background-color: rgba(var(--primary-rgb), 0.1);
+    background-color: var(--tag-bg);
     border-radius: 4px;
 }
 
@@ -3346,3 +3329,5 @@ body:not(.preload) .continuous-slider {
         max-width: 110px;
     }
 }
+
+/* Removed dark mode styles as they're now in dark-mode.css */

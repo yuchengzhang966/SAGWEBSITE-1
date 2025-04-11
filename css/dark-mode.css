@@ -1,0 +1,216 @@
+/**
+ * SageArk Dark Mode Stylesheet
+ * This file contains all dark mode specific styles.
+ * It uses the prefers-color-scheme media query to automatically 
+ * switch based on system preferences.
+ */
+
+/* Dark mode variables */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #4D9CFF;         /* Lighter blue for dark mode */
+        --secondary-color: #2D7FDB;       /* Original blue for hover */
+        --accent-color: #66B2FF;          /* Even lighter blue accent for dark mode */
+        --dark-color: #E4E4E4;            /* Light color for headings in dark mode */
+        --light-color: #303030;           /* Dark gray background */
+        --text-color: #DDDDDD;            /* Light text for dark mode */
+        --text-light: #A0A0A0;            /* Light secondary text */
+        --white: #181A1B;                 /* Dark background instead of white */
+        --background-color: #222526;      /* Dark background - standard dark mode gray */
+        --card-bg: #303436;               /* Darker card background */
+        --tag-bg: rgba(77, 156, 255, 0.15); /* Lighter blue with opacity for service icons */
+        --border-color: rgba(255, 255, 255, 0.12);
+        --shadow-color: rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* Apply dark mode styles */
+@media (prefers-color-scheme: dark) {
+    /* Base elements */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+    
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--dark-color);
+    }
+    
+    /* Links */
+    a {
+        color: var(--primary-color);
+    }
+    
+    a:hover {
+        color: var(--accent-color);
+    }
+    
+    /* Invert images that would look bad on dark backgrounds */
+    .invert-in-dark {
+        filter: invert(1);
+    }
+    
+    /* Logo considerations */
+    .main-header .navbar-brand img {
+        /* If your logo needs adjustment in dark mode */
+        filter: brightness(1.1);
+    }
+    
+    /* Navigation adjustments */
+    .main-header {
+        background-color: rgba(40, 40, 40, 0.98);
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .main-header .nav-link {
+        color: var(--text-color);
+    }
+    
+    .main-header .nav-link:hover, 
+    .main-header .nav-link.active {
+        color: var(--primary-color);
+    }
+    
+    .nav-scrolled {
+        background-color: rgba(34, 34, 34, 0.98);
+    }
+    
+    /* Mobile navigation */
+    @media (max-width: 991.98px) {
+        .main-header .navbar-collapse {
+            background-color: var(--white);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+        
+        .navbar-toggler-icon {
+            filter: invert(0.8);
+        }
+    }
+    
+    /* Hero section */
+    .hero-bg {
+        background: linear-gradient(0deg, rgba(30, 50, 70, 0.7) 0%, rgba(40, 60, 80, 0.7) 53%, rgba(50, 50, 50, 0) 100%);
+    }
+    
+    /* Card and container elements */
+    .card, 
+    .service-card, 
+    .testimonial, 
+    .pricing-card,
+    .feature,
+    .comparison-row, 
+    .stat-item {
+        background-color: var(--card-bg);
+        border-color: var(--border-color);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .service-icon,
+    .feature-icon {
+        background-color: rgba(77, 156, 255, 0.12);
+    }
+    
+    /* Buttons */
+    .btn-secondary {
+        background-color: transparent;
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+    
+    .btn-primary {
+        box-shadow: 0 4px 15px rgba(77, 156, 255, 0.2);
+    }
+    
+    .btn-primary:hover {
+        box-shadow: 0 6px 20px rgba(77, 156, 255, 0.3);
+    }
+    
+    /* Form elements */
+    input, 
+    textarea, 
+    select,
+    .form-control {
+        background-color: var(--card-bg);
+        color: var(--text-color);
+        border-color: var(--border-color);
+    }
+    
+    input::placeholder, 
+    textarea::placeholder {
+        color: var(--text-light);
+    }
+    
+    /* Footer */
+    footer, .footer {
+        background-color: var(--white);
+        color: var(--text-color);
+    }
+    
+    .footer-bottom {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Testimonials */
+    .testimonial-content p::before, 
+    .testimonial-content p::after {
+        color: var(--primary-color);
+        opacity: 0.3;
+    }
+    
+    /* Icons */
+    .comparison-icon.positive,
+    .feature-icon i,
+    .service-icon i {
+        color: var(--primary-color);
+    }
+    
+    /* Tabs */
+    .tab-btn {
+        color: var(--text-color);
+    }
+    
+    .tab-btn.active, 
+    .tab-btn:hover {
+        color: var(--primary-color);
+    }
+    
+    /* CTA Section */
+    .cta {
+        background-color: var(--card-bg);
+    }
+    
+    /* Map adjustments */
+    .country {
+        fill: #3a3a3a;
+        stroke: #4a4a4a;
+    }
+    
+    .country:hover {
+        fill: #4a4a4a;
+    }
+    
+    #d3-world-map {
+        background-color: var(--background-color);
+    }
+}
+
+/* Manual dark mode toggle class (for JavaScript implementation) */
+.dark-mode {
+    --primary-color: #4D9CFF;
+    --secondary-color: #2D7FDB;
+    --accent-color: #66B2FF;
+    --dark-color: #E4E4E4;
+    --light-color: #303030;
+    --text-color: #DDDDDD;
+    --text-light: #A0A0A0;
+    --white: #222222;
+    --background-color: #282828;
+    --card-bg: #333333;
+    --tag-bg: rgba(77, 156, 255, 0.15);
+    --border-color: rgba(255, 255, 255, 0.12);
+    --shadow-color: rgba(0, 0, 0, 0.25);
+    
+    background-color: var(--background-color);
+    color: var(--text-color);
+} 
