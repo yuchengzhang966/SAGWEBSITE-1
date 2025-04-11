@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AP Calculus Review Package | SageArk</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dark-mode.css">
     <meta name="description" content="Comprehensive AP Calculus review package covering key concepts for both Calculus AB and BC exams">
 </head>
 <body>

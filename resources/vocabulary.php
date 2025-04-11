@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAT/ACT Vocabulary Builder | SageArk</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dark-mode.css">
     <meta name="description" content="Effective flashcard system for mastering SAT/ACT vocabulary with proven memorization techniques">
 </head>
 <body>

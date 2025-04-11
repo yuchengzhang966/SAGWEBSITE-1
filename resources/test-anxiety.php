@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Anxiety Management Toolkit | SageArk</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dark-mode.css">
     <meta name="description" content="Effective strategies and tools to manage test anxiety and improve performance on standardized tests and exams">
 </head>
 <body>

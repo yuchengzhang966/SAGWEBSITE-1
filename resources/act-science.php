@@ -16,6 +16,7 @@ $page_title = "ACT Science Strategy Guide | SageArk";
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/dark-mode.css">
     <link rel="stylesheet" href="../css/resources.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     

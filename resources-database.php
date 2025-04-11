@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SageArk - Coaching for High-Impact Careers</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
     <link rel="stylesheet" href="css/resources.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
