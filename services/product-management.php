@@ -317,47 +317,6 @@ $duration = "32";
                     </div>
                 </div>
                 
-                <!-- Meet Your Instructors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Instructors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-11.jpg" alt="Sarah Miller" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Sarah Miller</h3>
-                                            <p class="text-muted mb-0">Former Senior PM, Google</p>
-                                        </div>
-                                    </div>
-                                    <p>Sarah spent 6 years as a Product Manager at Google, working on Maps and Search products used by billions of users worldwide. Prior to Google, she was an early PM at a YC-backed startup that was acquired. She holds an MBA from Stanford and specializes in consumer product strategy, user research, and experimentation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/instructor-12.jpg" alt="Jason Park" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Jason Park</h3>
-                                            <p class="text-muted mb-0">Former Director of Product, Amazon</p>
-                                        </div>
-                                    </div>
-                                    <p>Jason led product teams at Amazon for 7 years, overseeing the development of AWS services and marketplace products. He transitioned to product management from engineering and brings a strong technical perspective to product leadership. Having interviewed hundreds of PM candidates, he provides invaluable insights into what top tech companies look for in product managers.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

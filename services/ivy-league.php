@@ -299,47 +299,6 @@ $duration = "Comprehensive Strategy";
                     </div>
                 </div>
                 
-                <!-- Meet Your Advisors -->
-                <div class="mb-5">
-                    <h2 class="fw-bold mb-4">Meet Your Advisors</h2>
-                    
-                    <div class="row g-4">
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/advisor-1.jpg" alt="Dr. Emily Chen" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Dr. Emily Chen</h3>
-                                            <p class="text-muted mb-0">Former Admissions Officer, Harvard University</p>
-                                        </div>
-                                    </div>
-                                    <p>Dr. Chen spent 8 years evaluating applications for Harvard's undergraduate admissions office, where she reviewed thousands of applications and served on the admissions committee. She holds a Ph.D. in Education from Harvard and specializes in helping students develop authentic narratives that stand out in competitive applicant pools.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-6">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex mb-3">
-                                        <div class="flex-shrink-0">
-                                            <img src="../images/advisor-2.jpg" alt="Jonathan Rivera" class="rounded-circle" width="80" height="80">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            <h3 class="h5 mb-1">Jonathan Rivera</h3>
-                                            <p class="text-muted mb-0">Yale Alumni Interviewer & Education Consultant</p>
-                                        </div>
-                                    </div>
-                                    <p>Jonathan graduated from Yale with honors and has since conducted over 200 admissions interviews for his alma mater. With a background in both education and management consulting, he brings analytical rigor to the admissions process and specializes in interview preparation and personal narrative development.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Success Stories -->
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Success Stories</h2>

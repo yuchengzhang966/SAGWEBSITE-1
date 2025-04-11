@@ -1,0 +1,5 @@
+Instructions to upload your logo:
+1. Save the SageArk logo image as 'sageark-logo.png'
+2. Upload it to the '/images/logo/' directory on your server
+3. Make sure the image has a transparent background for best appearance
+4. The logo should be at least 200px wide for proper display on all devices

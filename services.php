@@ -216,7 +216,7 @@
                         <p>"SageArk's consulting coaching program was instrumental in helping me land my dream job at Bain & Company. The mock interviews and personalized feedback made all the difference."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial/testimonial-1.jpg" alt="Michael S.">
+                        <img src="images/testimonials/testimonial-1.jpg" alt="Michael S.">
                         <div class="author-details">
                             <h4>Michael S.</h4>
                             <p>Associate Consultant, Bain & Company</p>
@@ -230,7 +230,7 @@
                         <p>"The investment banking program gave me the competitive edge I needed. I went from having no finance background to securing an analyst position at Goldman Sachs."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial/testimonial-2.jpg" alt="Sophia L.">
+                        <img src="images/testimonials/testimonial-2.jpg" alt="Sophia L.">
                         <div class="author-details">
                             <h4>Sophia L.</h4>
                             <p>Investment Banking Analyst, Goldman Sachs</p>
@@ -244,7 +244,7 @@
                         <p>"Thanks to SageArk's college admissions coaching, I was accepted to all of my top-choice schools, including Harvard and Stanford. Their guidance on essays and interviews was invaluable."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial/testimonial-3.jpg" alt="James K.">
+                        <img src="images/testimonials/testimonial-3.jpg" alt="James K.">
                         <div class="author-details">
                             <h4>James K.</h4>
                             <p>Harvard University, Class of 2025</p>

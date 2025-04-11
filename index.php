@@ -209,7 +209,7 @@
                 <div class="services-grid">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/college-admission-icon.jpg" alt="College Admission Services" class="service-image">
+                            <i class="fas fa-graduation-cap"></i>
                         </div>
                         <h3>College Admission Services</h3>
                         <p>Comprehensive guidance through every step of the college application process with personalized strategy.</p>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/ivy-league-icon.jpg" alt="Ivy League Package" class="service-image">
+                            <i class="fas fa-university"></i>
                         </div>
                         <h3>Ivy League Package</h3>
                         <p>Comprehensive support for students targeting Harvard, Yale, Princeton and other elite institutions.</p>
@@ -225,7 +225,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/essay-excellence-icon.jpg" alt="Essay Excellence" class="service-image">
+                            <i class="fas fa-pencil-alt"></i>
                         </div>
                         <h3>Essay Excellence</h3>
                         <p>Personalized guidance to craft compelling personal statements and supplemental essays that stand out.</p>
@@ -233,7 +233,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/interview-prep-icon.jpg" alt="Interview Preparation" class="service-image">
+                            <i class="fas fa-comments"></i>
                         </div>
                         <h3>Interview Preparation</h3>
                         <p>Mock interviews and coaching to help you confidently navigate college admissions interviews.</p>
@@ -248,7 +248,7 @@
                 <div class="services-grid">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/m7-mba-icon.jpg" alt="M7 MBA Package" class="service-image">
+                            <i class="fas fa-building"></i>
                         </div>
                         <h3>M7 MBA Package</h3>
                         <p>Comprehensive guidance for applicants targeting Harvard, Stanford, Wharton and other elite business schools.</p>
@@ -256,7 +256,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/mba-essays-icon.jpg" alt="MBA Essays & Resume" class="service-image">
+                            <i class="fas fa-file-alt"></i>
                         </div>
                         <h3>MBA Essays & Resume</h3>
                         <p>Expert help crafting compelling MBA application essays and professional resumes that highlight your achievements.</p>
@@ -264,7 +264,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/mba-interview-icon.jpg" alt="MBA Interview Coaching" class="service-image">
+                            <i class="fas fa-user-tie"></i>
                         </div>
                         <h3>MBA Interview Coaching</h3>
                         <p>Personalized preparation for business school interviews, including realistic mock interviews with detailed feedback.</p>
@@ -278,7 +278,7 @@
                 <div class="services-grid">
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/boarding-school-icon.jpg" alt="Boarding School Prep" class="service-image">
+                            <i class="fas fa-school"></i>
                         </div>
                         <h3>Boarding School Prep</h3>
                         <p>Complete guidance for applications to elite boarding schools like Phillips Exeter, Andover, and Choate.</p>
@@ -286,7 +286,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/application-strategy-icon.jpg" alt="Application Strategy" class="service-image">
+                            <i class="fas fa-clipboard-list"></i>
                         </div>
                         <h3>Application Strategy</h3>
                         <p>Personalized strategy to highlight your strengths and create a compelling application narrative.</p>
@@ -294,7 +294,7 @@
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <img src="images/services/test-prep-icon.jpg" alt="SSAT/ISEE Test Prep" class="service-image">
+                            <i class="fas fa-book"></i>
                         </div>
                         <h3>SSAT/ISEE Test Prep</h3>
                         <p>Specialized tutoring for the SSAT and ISEE exams to maximize your score potential.</p>
@@ -313,7 +313,7 @@
                         <div class="service-card">
                             <div class="card-badge">CUSTOM</div>
                             <div class="service-icon">
-                                <img src="images/services/private-tutoring-icon.jpg" alt="Private Tutoring" class="service-image">
+                                <i class="fas fa-chalkboard-teacher"></i>
                             </div>
                             <h3>Private Tutoring</h3>
                             <p>One-on-one instruction with Ivy League-educated tutors across all academic subjects, tailored to your child's learning style.</p>
@@ -327,7 +327,7 @@
                         <div class="service-card">
                             <div class="card-badge">ADAPTIVE</div>
                             <div class="service-icon">
-                                <img src="images/services/academic-roadmapping-icon.jpg" alt="Academic Roadmapping" class="service-image">
+                                <i class="fas fa-road"></i>
                             </div>
                             <h3>Academic Roadmapping</h3>
                             <p>Comprehensive educational planning from elementary through high school, designed to maximize your child's potential.</p>
@@ -341,7 +341,7 @@
                         <div class="service-card">
                             <div class="card-badge">CUSTOM</div>
                             <div class="service-icon">
-                                <img src="images/services/international-curriculum-icon.jpg" alt="International Curriculum" class="service-image">
+                                <i class="fas fa-globe-americas"></i>
                             </div>
                             <h3>International Curriculum</h3>
                             <p>Expert guidance on international education systems, including IB, A-Levels, and European curricula for globally-minded families.</p>
@@ -355,7 +355,7 @@
                         <div class="service-card">
                             <div class="card-badge">CUSTOM</div>
                             <div class="service-icon">
-                                <img src="images/services/specialized-enrichment-icon.jpg" alt="Specialized Enrichment" class="service-image">
+                                <i class="fas fa-palette"></i>
                             </div>
                             <h3>Specialized Enrichment</h3>
                             <p>Curated extracurricular programs in arts, STEM, entrepreneurship, and leadership for well-rounded development.</p>
@@ -471,7 +471,7 @@
                         <p>"SageArk's consulting coaching program was instrumental in helping me land my dream job at Bain & Company. The mock interviews and personalized feedback made all the difference."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial-1.jpg" alt="Michael S.">
+                        <img src="images/testimonials/testimonial-1.jpg" alt="Michael S.">
                         <div class="author-details">
                             <h4>Michael S.</h4>
                             <p>Associate Consultant, Bain & Company</p>
@@ -483,7 +483,7 @@
                         <p>"The investment banking program gave me the competitive edge I needed. I went from having no finance background to securing an analyst position at Goldman Sachs."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial-2.jpg" alt="Sophia L.">
+                        <img src="images/testimonials/testimonial-2.jpg" alt="Sophia L.">
                         <div class="author-details">
                             <h4>Sophia L.</h4>
                             <p>Investment Banking Analyst, Goldman Sachs</p>
@@ -495,7 +495,7 @@
                         <p>"Thanks to SageArk's college admissions coaching, I was accepted to all of my top-choice schools, including Harvard and Stanford. Their guidance on essays and interviews was invaluable."</p>
                     </div>
                     <div class="testimonial-author">
-                        <img src="images/testimonial-3.jpg" alt="James K.">
+                        <img src="images/testimonials/testimonial-3.jpg" alt="James K.">
                         <div class="author-details">
                             <h4>James K.</h4>
                             <p>Harvard University, Class of 2025</p>
@@ -592,5 +592,6 @@
     <script src="script.js"></script>
     <!-- Add this before closing body tag (after your current script.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html> 
