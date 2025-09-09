@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setupDarkModeToggle();
 });
 
-// Function to set up dark mode toggle
+/* // Function to set up dark mode toggle
 function setupDarkModeToggle() {
     // Check for saved user preference
     const savedDarkMode = localStorage.getItem('darkMode') === 'true';
@@ -157,4 +157,4 @@ function setupDarkModeToggle() {
         darkModeToggle.innerHTML = isDarkMode ? '☀️' : '🌙';
         darkModeToggle.setAttribute('aria-label', isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode');
     }
-} 
+}  */

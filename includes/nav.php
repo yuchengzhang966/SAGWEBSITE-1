@@ -26,7 +26,7 @@
                         <a class="nav-link px-3 <?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php') ? 'active' : ''; ?>" href="/contact.php">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-primary nav-btn px-4 py-2" href="/contact.php">Get Started</a>
+                        <a class="btn btn-primary nav-btn px-4 py-2" href="/log_in.php">Log in</a>
                     </li>
                 </ul>
             </div>

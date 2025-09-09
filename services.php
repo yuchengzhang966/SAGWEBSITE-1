@@ -91,7 +91,7 @@
                     <p>Develop strong coding skills, ace technical interviews, and build projects that impress top tech employers.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Advanced</div>
-                        <div class="duration"><i class="far fa-clock"></i> 120 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/software-engineer.php" class="learn-more">Learn More →</a>
                 </div>
@@ -108,7 +108,7 @@
                     <p>Build analytical expertise in statistics, programming, and machine learning for data science positions.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Advanced</div>
-                        <div class="duration"><i class="far fa-clock"></i> 115 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/data-science.php" class="learn-more">Learn More →</a>
                 </div>
@@ -125,7 +125,7 @@
                     <p>Develop skills in mathematical modeling, algorithmic trading, and risk management for quantitative roles.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Advanced</div>
-                        <div class="duration"><i class="far fa-clock"></i> 35 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/quant-finance.php" class="learn-more">Learn More →</a>
                 </div>
@@ -142,7 +142,7 @@
                     <p>Learn product development strategies and build expertise in user research, roadmapping, and stakeholder management.</p>
                     <div class="program-meta">
                         <div class="difficulty"><i class="fas fa-signal"></i> Intermediate</div>
-                        <div class="duration"><i class="far fa-clock"></i> 28 hours</div>
+                        <div class="duration"><i class="far fa-clock"></i> 125 hours</div>
                     </div>
                     <a href="services/product-management.php" class="learn-more">Learn More →</a>
                 </div>

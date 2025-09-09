@@ -138,7 +138,7 @@ $duration = null; // Not applicable for overview page
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Financial modeling</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Valuation methodologies</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Technical interview prep</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 25 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="investment-banking.php" class="btn btn-outline-primary">Learn More</a>
@@ -163,7 +163,7 @@ $duration = null; // Not applicable for overview page
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Data structures & algorithms</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>System design principles</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Coding interview excellence</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 30 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="software-engineer.php" class="btn btn-outline-primary">Learn More</a>
@@ -187,7 +187,7 @@ $duration = null; // Not applicable for overview page
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Machine learning techniques</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Data processing & visualization</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Real-world projects</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 35 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="data-science.php" class="btn btn-outline-primary">Learn More</a>
@@ -211,7 +211,7 @@ $duration = null; // Not applicable for overview page
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Product strategy & roadmapping</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>User experience design</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Data-driven decision making</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 32 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Intermediate • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="product-management.php" class="btn btn-outline-primary">Learn More</a>
@@ -235,7 +235,7 @@ $duration = null; // Not applicable for overview page
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Advanced mathematical modeling</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Derivatives pricing & risk</li>
                                 <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Algorithmic trading strategies</li>
-                                <li><i class="bi bi-signal text-muted me-2"></i>Advanced • 40 hours</li>
+                                <li><i class="bi bi-signal text-muted me-2"></i>Advanced • 125 hours</li>
                             </ul>
                             <div class="text-center">
                                 <a href="quant-finance.php" class="btn btn-outline-primary">Learn More</a>

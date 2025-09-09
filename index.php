@@ -77,8 +77,7 @@
         </div>
     </section>
 
-    <!-- Middle content sections remain unchanged -->
-    <!-- Mission Statement Section -->
+<!--    
     <section class="mission-statement">
         <div class="mission-content">
             <div class="mission-text">
@@ -87,7 +86,7 @@
             </div>
         </div>
     </section>
-
+ -->
     <!-- Keep the rest of your existing content here -->
         <!-- Services Section -->
         <section class="services" id="services">
@@ -123,7 +122,7 @@
                             <p>Prepare for case interviews, develop problem-solving skills, and learn strategic frameworks used by top consulting firms.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Intermediate</span>
-                                <span class="duration"><i class="far fa-clock"></i> 20 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#consulting" class="read-more">Learn More</a>
                         </div>
@@ -137,7 +136,7 @@
                             <p>Master financial modeling, valuation techniques, and industry knowledge to break into prestigious investment banks.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Intermediate</span>
-                                <span class="duration"><i class="far fa-clock"></i> 25 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#investment-banking" class="read-more">Learn More</a>
                         </div>
@@ -151,7 +150,7 @@
                             <p>Develop strong coding skills, ace technical interviews, and build projects that impress top tech employers.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Advanced</span>
-                                <span class="duration"><i class="far fa-clock"></i> 120 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#software-engineer" class="read-more">Learn More</a>
                         </div>
@@ -165,7 +164,7 @@
                             <p>Build your analytical toolkit with statistics, programming, and machine learning skills needed for data science roles.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Intermediate</span>
-                                <span class="duration"><i class="far fa-clock"></i> 40 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#data-science" class="read-more">Learn More</a>
                         </div>
@@ -179,7 +178,7 @@
                             <p>Develop expertise in mathematical modeling, algorithmic trading, and risk management for quant roles at top firms.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Advanced</span>
-                                <span class="duration"><i class="far fa-clock"></i> 35 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#quant-finance" class="read-more">Learn More</a>
                         </div>
@@ -193,7 +192,7 @@
                             <p>Learn how to build products users love, prioritize features, and collaborate effectively with engineers and designers.</p>
                             <div class="card-meta">
                                 <span class="difficulty"><i class="fas fa-signal"></i> Intermediate</span>
-                                <span class="duration"><i class="far fa-clock"></i> 28 hours</span>
+                                <span class="duration"><i class="far fa-clock"></i> 125 hours</span>
                             </div>
                             <a href="services.php#product-management" class="read-more">Learn More</a>
                         </div>
