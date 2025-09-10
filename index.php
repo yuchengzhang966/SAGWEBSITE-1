@@ -33,8 +33,8 @@
                 <div class="hero-buttons">
                     <a href="services.php" class="btn btn-primary">Explore Services</a>
                     <a href="#how-it-works" class="btn-text">
-                        <span class="icon"><i class="fas fa-play-circle"></i></span>
-                        See how it works
+      <!--                   <span class="icon"><i class="fas fa-play-circle"></i></span>
+                        See how it works -->
                     </a>
                 </div>
                 <div class="clients-banner">

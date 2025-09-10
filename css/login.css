@@ -1,6 +1,84 @@
-/* Login Page Specific Styles */
-.login-container {
-    min-height: calc(100vh - 80px); /* Adjust 80px based on your header's height */
+/* ChatGPT-inspired Login Page Styles */
+.chatgpt-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px); /* Adjust 80px for your header height */
+    padding: 2rem 1rem;
+    background-color: var(--background-color);
+}
+
+.login-box {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 2rem;
+}
+
+.login-logo {
+    max-height: 40px;
+    width: auto;
+}
+
+.login-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+#loginForm .form-control {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    padding: 0.9rem 1rem;
+}
+
+#loginForm .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 86, 210, 0.25);
+}
+
+.signup-prompt {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.signup-prompt a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .login-box {
+    color: var(--text-color);
+}
+
+body.dark-mode .login-title {
+    color: var(--dark-color);
+}
+
+body.dark-mode #loginForm .form-control {
+    background-color: #3c3c3c;
+    border-color: #555;
+    color: var(--text-color);
+}
+
+body.dark-mode .signup-prompt {
+    color: var(--text-light);
+}
+
+body.dark-mode .signup-prompt a {
+    color: var(--primary-color);
+}
     display: flex;
     align-items: stretch;
 }

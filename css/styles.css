@@ -30,9 +30,9 @@
     --card-bg: #F9F9F9;
     --tag-bg: rgba(0, 86, 210, 0.1);  /* Light blue for service icons */
     --border-color: rgba(0, 0, 0, 0.1);
-    --shadow-color: rgba(0, 0, 0, 0.05);
-    --shadow: 0 4px 6px -1px var(--shadow-color), 0 2px 4px -1px var(--shadow-color);
-    --shadow-lg: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -2px var(--shadow-color);
+    --shadow-color: rgba(0, 42, 106, 0.1); /* A subtle, branded shadow color */
+    --shadow: 0 8px 24px var(--shadow-color);
+    --shadow-lg: 0 12px 28px var(--shadow-color);
     
     --spacing-xs: 0rem;               /* When to use: For minimal or no spacing between tightly related elements, like tabs or button groups */
     --spacing-sm: 0.5rem;             /* When to use: For small gaps between related elements, margins after headings, list items spacing */
@@ -48,9 +48,9 @@
     --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --card-border: 1px solid rgba(0, 86, 210, 0.1);
     
-    --font-xs: 0.875rem;
-    --font-sm: 1rem;
-    --font-md: 1.125rem;
+    --font-xs: 0.5rem;
+    --font-sm: 0.7rem;
+    --font-md: 1rem;
     --font-lg: 2rem;
     --font-xl: 3.25rem;
     --font-2xl: 4rem;
@@ -66,7 +66,7 @@
  * Base body styles
  */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'ui-sans-serif', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.7;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-family: 'Georgia';
     font-size: var(--font-4xl);
     letter-spacing: -0.02em;
 }
@@ -213,6 +214,8 @@ h6 {
 p {
     margin-bottom: 1rem;
     color: var(--text-color);
+
+
 }
 
 .text-primary {
@@ -370,14 +373,20 @@ section {
  * Main call-to-action style used for important actions
  */
 .btn-primary {
-    background-color: var(--primary-color);
-    color: var(--white);
+    /* Glassmorphism styles */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    color: var(--dark-color); /* Dark text for readability on light backgrounds */
 }
 
 .btn-primary:hover {
-    background-color: var(--secondary-color);
+    background: rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 86, 210, 0.3);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+    color: var(--dark-color); /* Ensure color doesn't change on hover */
 }
 
 .btn-secondary {
@@ -401,10 +410,15 @@ section {
  * Centers content with white background
  */
 .hero {
-    padding: calc(var(--spacing-lg) + 80px) 0 var(--spacing-md);
+    padding-top: 100px; /* Space for the fixed header */
+    padding-bottom: var(--spacing-lg); /* Bottom spacing */
     position: relative;
     text-align: center;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    min-height: 20vh; /* Set a minimum height, e.g., 70% of viewport height */
+    max-height: 600px;
 }
 
 
@@ -837,14 +851,16 @@ section {
 }
 
 .cta .btn-primary {
-    background-color: var(--white);
-    color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff; /* Hardcoded white for contrast on dark CTA background */
 }
 
 .cta .btn-primary:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.25);
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 /* Footer Styles */
@@ -1036,7 +1052,7 @@ section {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: var(--spacing-lg) 20px 0;
     box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 
@@ -1599,7 +1615,7 @@ body:not(.preload) .logo-carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding: 15px 0;
+    /* padding: 15px 0; */ /* Padding is now handled by the parent .tab-content */
 }
 
 .services-carousel {

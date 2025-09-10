@@ -29,65 +29,35 @@ error_reporting(E_ALL);
     <!-- Include the navigation -->
     <?php include 'includes/nav.php'; ?>
 
-    <div class="login-container">
-        <div class="container-fluid h-100">
-            <div class="row h-100">
-                <!-- Left Side: How it works -->
-                <div class="col-lg-6 login-info-panel d-flex flex-column justify-content-center">
-                    <div class="p-md-5 p-4">
-                        <h2 class="display-5 fw-bold text-white mb-4">Access Your Student Portal</h2>
-                        <p class="lead text-white-50 mb-5">Our student portal is an exclusive resource for enrolled students. Here’s how to gain access:</p>
-                        
-                        <div class="d-flex align-items-start mb-4">
-                            <div class="flex-shrink-0">
-                                <div class="step-icon">1</div>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h4 class="text-white">Consult with Our Team</h4>
-                                <p class="text-white-50">Begin by scheduling a consultation with our sales representatives. We'll discuss your goals and find the perfect course for you.</p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-start mb-5">
-                            <div class="flex-shrink-0">
-                                <div class="step-icon">2</div>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h4 class="text-white">Enroll and Log In</h4>
-                                <p class="text-white-50">Once you've purchased a course, you'll receive credentials to log in and access all your course materials, resources, and scheduling tools.</p>
-                            </div>
-                        </div>
-
-                        <a href="contact.php" class="btn btn-light btn-lg px-5">Contact Sales</a>
-                    </div>
+    <div class="chatgpt-login-container">
+        <div class="login-box">
+            <div class="logo-container">
+                <img src="/images/logo/sageark-logo.png" alt="SageArk" class="login-logo">
+            </div>
+            <h1 class="login-title">Welcome back</h1>
+            
+            <div id="loginMessage" class="alert alert-warning mt-3" style="display: none;"></div>
+            
+            <form id="loginForm" novalidate>
+                <div class="mb-3">
+                    <label for="email" class="form-label visually-hidden">Email Address</label>
+                    <input type="email" class="form-control form-control-lg" id="email" name="email" required placeholder="Email address">
                 </div>
-
-                <!-- Right Side: Login Form -->
-                <div class="col-lg-6 login-form-panel d-flex align-items-center justify-content-center">
-                    <div class="login-form-wrapper">
-                        <h3 class="fw-bold mb-4 text-center">Student Login</h3>
-                        <div id="loginMessage" class="alert alert-warning mt-3" style="display: none;"></div>
-                        <form id="loginForm" novalidate>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email Address</label>
-                                <input type="email" class="form-control form-control-lg" id="email" name="email" required placeholder="you@example.com">
-                            </div>
-                            <div class="mb-4">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control form-control-lg" id="password" name="password" required placeholder="••••••••">
-                            </div>
-                            <div class="d-grid mb-3">
-                                <button type="submit" class="btn btn-primary btn-lg d-flex align-items-center justify-content-center">
-                                    <span class="login-text">Log In</span>
-                                    <span class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
-                                </button>
-                            </div>
-                            <div class="text-center">
-                                <a href="#" class="text-muted small">Forgot Password?</a>
-                            </div>
-                        </form>
-                    </div>
+                <!-- Password field is hidden to mimic ChatGPT's two-step login -->
+                <div class="mb-4" style="display: none;">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control form-control-lg" id="password" name="password" placeholder="••••••••">
                 </div>
+                <div class="d-grid mb-3">
+                    <button type="submit" class="btn btn-primary btn-lg d-flex align-items-center justify-content-center">
+                        <span class="login-text">Continue</span>
+                        <span class="spinner-border spinner-border-sm ms-2" role="status" aria-hidden="true" style="display: none;"></span>
+                    </button>
+                </div>
+            </form>
+            
+            <div class="signup-prompt text-center">
+                <span>Don't have an account?</span> <a href="contact.php">Sign up</a>
             </div>
         </div>
     </div>
@@ -121,13 +91,13 @@ error_reporting(E_ALL);
                 // Simulate a delay for checking credentials
                 setTimeout(() => {
                     // Restore button state
-                    loginButtonText.textContent = 'Log In';
+                    loginButtonText.textContent = 'Continue';
                     loginButtonSpinner.style.display = 'none';
                     loginButton.disabled = false;
 
                     if (emailInput.value) {
                         // Display the message as requested
-                        loginMessage.innerHTML = 'You have not signed up with our classes. Please <a href="contact.php" class="alert-link">leave your contact information</a> and we will give you a demo.';
+                        loginMessage.innerHTML = 'It looks like this email isn\'t registered yet. To get started, please <a href="contact.php" class="alert-link">contact our team</a> for a personalized demo.';
                         loginMessage.style.display = 'block';
                     } else {
                         // Optional: handle empty email case
