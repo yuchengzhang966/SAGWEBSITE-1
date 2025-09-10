@@ -26,7 +26,7 @@
     --text-color: #3E3E3E;            /* Main text color */
     --text-light: #6E6E6E;            /* Secondary text color */
     --white: #ffffff;
-    --background-color: #ffffff;      /* Main background color */
+    --background-color: #F5F8F6;      /* Main background color */
     --card-bg: #F9F9F9;
     --tag-bg: rgba(0, 86, 210, 0.1);  /* Light blue for service icons */
     --border-color: rgba(0, 0, 0, 0.1);
@@ -406,6 +406,8 @@ section {
     text-align: center;
     overflow: hidden;
 }
+
+
 
 /* Hero background and SVG styling */
 .hero-bg {
