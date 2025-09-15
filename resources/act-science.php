@@ -34,25 +34,24 @@ $page_title = "ACT Science Strategy Guide | SageArk";
 
 <?php include('../includes/nav.php'); ?>
 
-<div class="hero-section bg-primary text-white py-5 mb-5">
+<!-- Hero Section -->
+<section class="page-hero">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 mx-auto text-center">
-                <span class="badge bg-accent text-white mb-3">STRATEGY</span>
-                <h1 class="display-4 fw-bold mb-3">ACT Science Strategy Guide</h1>
-                <p class="lead mb-4">Master the science of time management, pattern recognition, and strategic question-answering</p>
-                <div class="d-flex justify-content-center align-items-center small text-white-50">
-                    <div class="me-3">
-                        <i class="bi bi-clock me-1"></i> Last updated: August 2023
-                    </div>
-                    <div>
-                        <i class="bi bi-book me-1"></i> 14 min read
-                    </div>
+        <div class="hero-content text-center">
+            <div class="resource-type-badge">STRATEGY</div>
+            <h1>ACT Science Strategy Guide</h1>
+            <p class="resources-subtitle">Master the science of time management, pattern recognition, and strategic question-answering</p>
+            <div class="resource-metadata">
+                <div class="metadata-item">
+                    <i class="far fa-calendar-alt"></i> Last Updated: August 2025
+                </div>
+                <div class="metadata-item">
+                    <i class="far fa-clock"></i> Reading Time: 14 minutes
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <div class="container mb-5">
     <div class="row">

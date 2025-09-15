@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SageArk - Coaching for High-Impact Careers</title>
+    <title>Career & College Admissions Coaching | SageArk</title>
+    <meta name="description" content="SageArk provides expert coaching and structured programs for high-impact careers in consulting, finance, and tech, plus personalized college admissions guidance.">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/dark-mode.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -449,6 +450,21 @@
                 <div class="edu-feature-image">
                     <!-- Replacing image placeholder with actual image -->
                     <img src="images/features/global-perspective.jpg" alt="Global Perspective" class="feature-image">
+                </div>
+            </div>
+
+            <!-- Integrated Learning Portal (4th - even row - image on left) -->
+            <div class="edu-feature-row">
+                <div class="edu-feature-image">
+                    <img src="images/features/log_in.jpg" alt="Integrated Learning Portal" class="feature-image">
+                </div>
+                <div class="edu-feature-text">
+                    <div class="bigtitle-header">
+                        <h3>SEAMLESS LEARNING</h3>
+                        <h2>Integrated Learning <span class="highlight">Portal</span></h2>
+                        <p>We deliver classes over our self-development learning management portal so that you will never lose track of your progress. Stay organized, access materials, and monitor your journey to success all in one place.</p>
+                    </div>
+                    <a src="images/features/log_in.jpg" class="edu-feature-link">Explore the portal <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 

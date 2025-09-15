@@ -118,7 +118,7 @@
                     <!-- College Resource 1 -->
                     <div class="resource-card">
                         <div class="resource-card-image">
-                            <img src="images/resources/college-timeline.jpg" alt="Application Timeline">
+                            <img src="images/resources/college-timeline.jpg" alt="Student planning on a calendar representing a college application timeline.">
                             <div class="resource-type">GUIDE</div>
                         </div>
                         <div class="resource-card-content">
@@ -131,13 +131,13 @@
                     <!-- College Resource 2 -->
                     <div class="resource-card">
                         <div class="resource-card-image">
-                            <img src="../images/resources/essay-writing.jpg" alt="Essay Writing">
+                            <img src="../images/resources/essay-writing.jpg" alt="A person writing a compelling college essay on a laptop.">
                             <div class="resource-type">GUIDE</div>
                         </div>
                         <div class="resource-card-content">
                             <h3>College Essay Writing Guide</h3>
-                            <p>Expert strategies and step-by-step guidance for crafting standout college application essays.</p>
-                            <a href="essay-writing-guide.php" class="resource-link">View Resource →</a>
+                            <p>A comprehensive approach to crafting compelling personal statements and supplemental essays.</p>
+                            <a href="resources/college-essay-guide.php" class="resource-link">View Resource →</a>
                         </div>
                     </div>
                     
@@ -195,7 +195,7 @@
                 </div>
                 
                 <div class="text-center mt-5">
-                    <a href="resources-database.php?category=college" class="btn btn-primary">View All College Resources</a>
+                    <a href="resources-database.php" class="btn btn-primary">View All Resources</a>
                 </div>
             </div>
             
@@ -287,7 +287,7 @@
                 </div>
                 
                 <div class="text-center mt-5">
-    <a href="resources-database.php?category=careers" class="btn btn-primary">View All Career Resources</a>
+    <a href="resources-database.php" class="btn btn-primary">View All Resources</a>
 
             </div>
             </div>
@@ -380,7 +380,7 @@
                 </div>
                 
                 <div class="text-center mt-5">
-    <a href="resources-database.php?category=personal" class="btn btn-primary">View All Personal Growth Resources</a>
+    <a href="resources-database.php" class="btn btn-primary">View All Resources</a>
 </div>
             </div>
            
@@ -472,7 +472,7 @@
                 </div>
                 
                 <div class="text-center mt-5">
-    <a href="resources-database.php?category=test-prep" class="btn btn-primary">View All Test Prep Resources</a>
+    <a href="resources-database.php" class="btn btn-primary">View All Resources</a>
 </div>
             </div>
         </div>
@@ -494,7 +494,6 @@
                         <img src="images/blog/college-trend.jpg" alt="College Admissions Trends">
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">May 15, 2023</div>
                         <h3>5 College Admissions Trends to Watch in 2024</h3>
                         <p>How test-optional policies, holistic review, and other emerging trends are reshaping college admissions.</p>
                         <a href="blog/admissions-trends-2024.php" class="blog-link">Read Article →</a>
@@ -507,7 +506,6 @@
                         <img src="images/blog/ai-careers.jpg" alt="AI Careers">
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">April 28, 2023</div>
                         <h3>The Rise of AI: Career Opportunities for Recent Graduates</h3>
                         <p>Exploring the growing demand for AI talent and how students can position themselves for these roles.</p>
                         <a href="blog/ai-careers.php" class="blog-link">Read Article →</a>
@@ -520,7 +518,6 @@
                         <img src="images/blog/interview-mistakes.jpg" alt="Interview Mistakes">
                     </div>
                     <div class="blog-content">
-                        <div class="blog-date">April 10, 2023</div>
                         <h3>Top 7 Interview Mistakes and How to Avoid Them</h3>
                         <p>Common pitfalls that candidates make during interviews and strategies to present your best self.</p>
                         <a href="blog/interview-mistakes.php" class="blog-link">Read Article →</a>
@@ -529,7 +526,7 @@
             </div>
             
             <div class="text-center mt-5">
-    <a href="resources-database.php?category=blog" class="btn btn-primary">View All Articles</a>
+    <a href="resources-database.php" class="btn btn-primary">View All Resources</a>
 </div>
         </div>
     </section>

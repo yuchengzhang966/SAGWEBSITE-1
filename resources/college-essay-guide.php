@@ -36,25 +36,24 @@ $page_title = "College Essay Guide | SageArk";
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
     
-    <div class="hero-section bg-primary text-white py-5 mb-5">
+    <!-- Hero Section -->
+    <section class="page-hero">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-accent text-white mb-3">GUIDE</span>
-                    <h1 class="display-4 fw-bold mb-3">College Essay Guide</h1>
-                    <p class="lead mb-4 text-white opacity-90">A comprehensive approach to crafting compelling personal statements and supplemental essays</p>
-                    <div class="d-flex justify-content-center align-items-center small text-white-50">
-                        <div class="me-3">
-                            <i class="bi bi-clock me-1"></i> Last updated: October 2023
-                        </div>
-                        <div>
-                            <i class="bi bi-book me-1"></i> 18 min read
-                        </div>
+            <div class="hero-content text-center">
+                <div class="resource-type-badge">GUIDE</div>
+                <h1>College Essay Guide</h1>
+                <p class="resources-subtitle">A comprehensive approach to crafting compelling personal statements and supplemental essays</p>
+                <div class="resource-metadata">
+                    <div class="metadata-item">
+                        <i class="far fa-calendar-alt"></i> Last Updated: October 2024
+                    </div>
+                    <div class="metadata-item">
+                        <i class="far fa-clock"></i> Reading Time: 18 minutes
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="container mb-5">
         <div class="row">

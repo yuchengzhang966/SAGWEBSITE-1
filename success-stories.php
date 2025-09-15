@@ -341,7 +341,7 @@
                         <h3>How I Got Into All 8 Ivy League Schools</h3>
                         <p class="spotlight-meta">James Washington | College Admissions</p>
                         <p>An extraordinary success story of a student who gained acceptance to all Ivy League institutions with SageArk's guidance.</p>
-                        <a href="story-james-washington.php" class="read-more">Read the full story →</a>
+                    <a href="story-james-washington.php" class="read-more">Read the full story →</a>
                     </div>
                 </div>
             </div>

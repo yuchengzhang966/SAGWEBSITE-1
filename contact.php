@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - SageArk</title>
+    <title>Contact SageArk | Career & Education Coaching</title>
+    <meta name="description" content="Get in touch with the SageArk team to discuss your educational and career goals. Schedule a free consultation for our coaching programs and services.">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">

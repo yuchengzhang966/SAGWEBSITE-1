@@ -47,4 +47,20 @@
             <p>&copy; <?php echo date('Y'); ?> SageArk. All rights reserved.</p>
         </div>
     </div>
-</footer> 
+</footer>
+
+<!-- Organization Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SageArk",
+  "url": "https://www.sageark.com",
+  "logo": "https://www.sageark.com/images/logo/sageark-logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-646-468-9846",
+    "contactType": "Customer Service"
+  }
+}
+</script>

@@ -41,10 +41,6 @@
     <!-- Resources Database Section -->
     <section class="resource-database section-padding">
         <div class="container">
-            <!-- Category Tabs -->
-       
-
-       
             <!-- Resources Grid -->
             <div class="resource-grid resource-database-grid">
                 <!-- College Resources -->
@@ -60,18 +56,6 @@
                     </div>
                 </div>
                 
-                <div class="resource-card" data-category="college" data-type="toolkit">
-                    <div class="resource-card-image">
-                        <img src="images/resources/essay-writing.jpg" alt="Essay Writing">
-                        <div class="resource-type">TOOLKIT</div>
-                    </div>
-                    <div class="resource-card-content">
-                        <h3>College Essay Toolkit</h3>
-                        <p>Templates, examples, and step-by-step guidance for crafting standout college application essays.</p>
-                        <a href="resources/essay-toolkit.php" class="resource-link">View Resource →</a>
-                    </div>
-                </div>
-                
                 <div class="resource-card" data-category="college" data-type="template">
                     <div class="resource-card-image">
                         <img src="images/resources/recommendation.jpg" alt="Recommendation Letters">
@@ -84,6 +68,42 @@
                     </div>
                 </div>
                 
+                <div class="resource-card" data-category="college" data-type="guide">
+                    <div class="resource-card-image">
+                        <img src="images/resources/essay-writing.jpg" alt="Essay Writing">
+                        <div class="resource-type">GUIDE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>College Essay Writing Guide</h3>
+                        <p>A comprehensive approach to crafting compelling personal statements and supplemental essays.</p>
+                        <a href="resources/college-essay-guide.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="college" data-type="database">
+                    <div class="resource-card-image">
+                        <img src="images/resources/scholarship.jpg" alt="Scholarships">
+                        <div class="resource-type">DATABASE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Scholarship Finder</h3>
+                        <p>Curated database of scholarships organized by eligibility criteria, amount, and deadline.</p>
+                        <a href="resources/scholarship-finder.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="college" data-type="worksheet">
+                    <div class="resource-card-image">
+                        <img src="images/resources/college-comparison.jpg" alt="College Comparison">
+                        <div class="resource-type">WORKSHEET</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>College Comparison Tool</h3>
+                        <p>Interactive worksheet to help evaluate and compare different universities based on your priorities.</p>
+                        <a href="resources/college-comparison.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
                 <!-- Career Resources -->
                 <div class="resource-card" data-category="careers" data-type="practice">
                     <div class="resource-card-image">
@@ -91,8 +111,8 @@
                         <div class="resource-type">PRACTICE SET</div>
                     </div>
                     <div class="resource-card-content">
-                        <h3>Consulting Case Interview Pack</h3>
-                        <p>Collection of 20 practice cases with detailed solutions and frameworks for consulting interviews.</p>
+                        <h3>Consulting Case Interview Example</h3>
+                        <p>A detailed walkthrough of a sample business case with frameworks, analysis techniques, and structured solution approach.</p>
                         <a href="resources/consulting-cases.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
@@ -103,9 +123,57 @@
                         <div class="resource-type">GUIDE</div>
                     </div>
                     <div class="resource-card-content">
-                        <h3>LinkedIn Profile Optimization</h3>
-                        <p>Step-by-step guide to create a standout LinkedIn profile that attracts recruiters and opportunities.</p>
+                        <h3>LinkedIn Profile Diagnostic</h3>
+                        <p>Identify common problems in your LinkedIn profile and understand what may be holding back your professional presence online.</p>
                         <a href="resources/linkedin-guide.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="careers" data-type="practice">
+                    <div class="resource-card-image">
+                        <img src="images/resources/tech-interview.jpg" alt="Tech Interviews">
+                        <div class="resource-type">PRACTICE SET</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Technical Interview Questions</h3>
+                        <p>Comprehensive set of coding challenges and system design questions for software engineering roles.</p>
+                        <a href="resources/tech-questions.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="careers" data-type="template">
+                    <div class="resource-card-image">
+                        <img src="images/resources/financial-models.jpg" alt="Financial Modeling">
+                        <div class="resource-type">TEMPLATE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Financial Modeling Essentials</h3>
+                        <p>A comprehensive overview of key financial modeling frameworks used in investment banking, private equity, and corporate finance careers.</p>
+                        <a href="resources/financial-models.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="careers" data-type="template">
+                    <div class="resource-card-image">
+                        <img src="images/resources/resume.jpg" alt="Resume Building">
+                        <div class="resource-type">TEMPLATE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Resume Red Flags</h3>
+                        <p>Identify and fix the critical issues that could be preventing your resume from making it past applicant tracking systems and recruiters.</p>
+                        <a href="resources/resume-templates.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="careers" data-type="strategy">
+                    <div class="resource-card-image">
+                        <img src="images/resources/networking.jpg" alt="Networking">
+                        <div class="resource-type">STRATEGY</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Networking Strategy Framework</h3>
+                        <p>Comprehensive approach to build a professional network and leverage connections effectively.</p>
+                        <a href="resources/networking-strategy.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
                 
@@ -121,6 +189,66 @@
                         <a href="resources/mindfulness.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
+
+                <div class="resource-card" data-category="personal" data-type="workbook">
+                    <div class="resource-card-image">
+                        <img src="images/resources/time-management.jpg" alt="Time Management">
+                        <div class="resource-type">WORKBOOK</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Time Management System</h3>
+                        <p>Comprehensive time management framework designed specifically for students balancing academics, extracurriculars, and applications.</p>
+                        <a href="resources/time-management.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="personal" data-type="course">
+                    <div class="resource-card-image">
+                        <img src="images/resources/public-speaking.jpg" alt="Public Speaking">
+                        <div class="resource-type">COURSE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Public Speaking Fundamentals</h3>
+                        <p>Step-by-step course to build confidence and develop compelling presentation skills for academic and professional settings.</p>
+                        <a href="resources/public-speaking.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="personal" data-type="framework">
+                    <div class="resource-card-image">
+                        <img src="images/resources/goal-setting.jpg" alt="Goal Setting">
+                        <div class="resource-type">FRAMEWORK</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Goal Setting & Achievement System</h3>
+                        <p>Structured approach to setting meaningful goals and developing actionable plans to achieve them.</p>
+                        <a href="resources/goal-setting.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="personal" data-type="guide">
+                    <div class="resource-card-image">
+                        <img src="images/resources/reading.jpg" alt="Reading">
+                        <div class="resource-type">GUIDE</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Advanced Reading Techniques</h3>
+                        <p>Methods to improve reading speed, comprehension, and retention for academic and professional literature.</p>
+                        <a href="resources/reading-techniques.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="personal" data-type="framework">
+                    <div class="resource-card-image">
+                        <img src="images/resources/leadership.jpg" alt="Leadership">
+                        <div class="resource-type">FRAMEWORK</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Student Leadership Development</h3>
+                        <p>Framework for developing leadership skills through campus organizations, community service, and team projects.</p>
+                        <a href="resources/leadership.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
                 
                 <!-- Test Prep Resources -->
                 <div class="resource-card" data-category="test-prep" data-type="practice">
@@ -134,20 +262,67 @@
                         <a href="resources/sat-math.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
-                
-                <!-- Downloads -->
-                <div class="resource-card" data-category="downloads" data-type="template">
+
+                <div class="resource-card" data-category="test-prep" data-type="review">
                     <div class="resource-card-image">
-                        <img src="images/resources/resume.jpg" alt="Resume Templates">
-                        <div class="resource-type">TEMPLATE</div>
+                        <img src="images/resources/ap-calc.jpg" alt="AP Calculus">
+                        <div class="resource-type">REVIEW</div>
                     </div>
-                    <div class="resource-card-content"data-category="downloads" data-type="template">
-                        <h3>Resume Red flags</h3>
-                        <p>Professional templates optimized for students and recent graduates.</p>
-                        <a href="resources/resume-templates.php" class="resource-link">Download Resource →</a>
+                    <div class="resource-card-content">
+                        <h3>AP Calculus Review Package</h3>
+                        <p>Structured review materials with practice problems and FRQ strategies for AP Calculus AB/BC.</p>
+                        <a href="resources/ap-calculus.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
-                
+
+                <div class="resource-card" data-category="test-prep" data-type="flashcards">
+                    <div class="resource-card-image">
+                        <img src="images/resources/vocab.jpg" alt="Vocabulary">
+                        <div class="resource-type">FLASHCARDS</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>SAT/ACT Vocabulary Builder</h3>
+                        <p>Interactive digital flashcards with spaced repetition system for optimal vocabulary retention.</p>
+                        <a href="resources/vocabulary.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="test-prep" data-type="strategy">
+                    <div class="resource-card-image">
+                        <img src="images/resources/act-science.jpg" alt="ACT Science">
+                        <div class="resource-type">STRATEGY</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>ACT Science Strategy Guide</h3>
+                        <p>Effective approaches for tackling the ACT Science section with practice passages and questions.</p>
+                        <a href="resources/act-science.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="test-prep" data-type="study-plan">
+                    <div class="resource-card-image">
+                        <img src="images/resources/gmat.jpg" alt="GMAT">
+                        <div class="resource-type">STUDY PLAN</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>GMAT 8-Week Study Plan</h3>
+                        <p>Week-by-week study schedule with resources and practice tests to maximize your GMAT score.</p>
+                        <a href="resources/gmat-plan.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="test-prep" data-type="toolkit">
+                    <div class="resource-card-image">
+                        <img src="images/resources/test-anxiety.jpg" alt="Test Anxiety">
+                        <div class="resource-type">TOOLKIT</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>Test Anxiety Management</h3>
+                        <p>Strategies and techniques to overcome test anxiety and perform at your best on exam day.</p>
+                        <a href="resources/test-anxiety.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
                 <!-- Interview Preparation Checklist -->
                 <div class="resource-card" data-category="college" data-type="checklist">
                     <div class="resource-card-image">
@@ -158,6 +333,18 @@
                         <h3>Interview Preparation Checklist</h3>
                         <p>Comprehensive preparation guide with common questions and strategies for college interviews.</p>
                         <a href="resources/interview-prep.php" class="resource-link">View Resource →</a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="college" data-type="toolkit">
+                    <div class="resource-card-image">
+                        <img src="images/resources/essay-writing.jpg" alt="Essay Writing">
+                        <div class="resource-type">TOOLKIT</div>
+                    </div>
+                    <div class="resource-card-content">
+                        <h3>College Essay Toolkit</h3>
+                        <p>Templates, examples, and step-by-step guidance for crafting standout college application essays.</p>
+                        <a href="resources/essay-toolkit.php" class="resource-link">View Resource →</a>
                     </div>
                 </div>
                 
@@ -206,45 +393,5 @@
     <!-- Include the footer -->
     <?php include 'includes/footer.php'; ?>
 
-    <!-- Scripts -->
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Handle category tab clicks
-            const tabs = document.querySelectorAll('.resource-tab');
-            const resourceCards = document.querySelectorAll('.resource-card');
-            
-            // Function to filter resources
-            function filterResources() {
-                const selectedCategory = document.querySelector('.resource-tab.active').getAttribute('data-category');
-                
-                resourceCards.forEach(card => {
-                    const cardCategory = card.getAttribute('data-category');
-                    
-                    if (selectedCategory === 'all' || cardCategory === selectedCategory) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            }
-            
-            // Initialize filters based on URL parameters
-            filterResources();
-            
-            // Set up event listeners
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                    tabs.forEach(t => t.classList.remove('active'));
-                    tab.classList.add('active');
-                    filterResources();
-                    
-                    // This keeps the base URL without parameters
-                    window.history.pushState({}, '', window.location.pathname);
-                });
-            });
-        });
-    </script>
 </body>
 </html>

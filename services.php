@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - SageArk</title>
+    <title>Career Programs & Admissions Services | SageArk</title>
+    <meta name="description" content="Explore SageArk's premium services, including career programs for consulting and finance, and personalized coaching for college and MBA admissions.">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">

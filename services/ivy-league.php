@@ -1,5 +1,5 @@
 <?php
-// Page variables
+// Page variables 
 $page_title = "Ivy League Admissions Package | SageArk";
 $meta_description = "Gain a competitive edge in Ivy League and top-tier university admissions with SageArk's comprehensive admissions consulting, essay development, and interview preparation.";
 

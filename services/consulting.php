@@ -38,6 +38,25 @@ $duration = "125";
 <body class="preload service-detail-page">
     <?php include '../includes/nav.php'; ?>
     
+    <!-- Service Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Career Coaching",
+      "provider": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "name": "Consulting Careers Program",
+      "description": "A comprehensive program to prepare students and professionals for roles at top consulting firms like McKinsey, Bain, and BCG, with a focus on case interview mastery.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "USA"
+      }
+    }
+    </script>
+
     <!-- Include hero section template -->
     <?php include '../includes/hero-service.php'; ?>
 
