@@ -55,8 +55,8 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "SageArk",
-  "url": "https://www.sageark.com",
-  "logo": "https://www.sageark.com/images/logo/sageark-logo.png",
+  "url": "https://www.sageark.io",
+  "logo": "https://www.sageark.io/images/logo/sageark-logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-646-468-9846",

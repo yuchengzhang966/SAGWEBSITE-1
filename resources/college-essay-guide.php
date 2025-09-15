@@ -45,7 +45,7 @@ $page_title = "College Essay Guide | SageArk";
                 <p class="resources-subtitle">A comprehensive approach to crafting compelling personal statements and supplemental essays</p>
                 <div class="resource-metadata">
                     <div class="metadata-item">
-                        <i class="far fa-calendar-alt"></i> Last Updated: October 2024
+                        <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                     </div>
                     <div class="metadata-item">
                         <i class="far fa-clock"></i> Reading Time: 18 minutes

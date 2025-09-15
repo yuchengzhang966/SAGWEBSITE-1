@@ -40,7 +40,7 @@ error_reporting(E_ALL);
                 <!-- Metadata inside hero section -->
                 <div class="resource-metadata">
                     <div class="metadata-item">
-                        <i class="far fa-calendar-alt"></i> Last Updated: April 2023
+                        <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                     </div>
                     <div class="metadata-item">
                         <i class="far fa-clock"></i> Updated Monthly
@@ -230,7 +230,7 @@ error_reporting(E_ALL);
                                     </div>
                                     <p>Provides full funding for outstanding, minority, high school seniors from low-income households who have demonstrated leadership abilities and exceptional academic promise.</p>
                                     <div class="scholarship-meta">
-                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: September 15, 2023</span>
+                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: September 15, 2024</span>
                                         <span><i class="fas fa-globe me-1"></i> US Citizens/Permanent Residents</span>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@ error_reporting(E_ALL);
                                     </div>
                                     <p>Achievement-based scholarship awarded to graduating high school seniors with a demonstrated capacity to lead and serve, and a commitment to making a significant impact on their schools and communities.</p>
                                     <div class="scholarship-meta">
-                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: October 31, 2023</span>
+                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: October 31, 2024</span>
                                         <span><i class="fas fa-globe me-1"></i> US Citizens/Permanent Residents/DACA</span>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@ error_reporting(E_ALL);
                                     </div>
                                     <p>Provides funding for high-achieving students with financial need to attend the nation's top colleges and universities. Includes personalized advising and access to a network of scholars.</p>
                                     <div class="scholarship-meta">
-                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: November 30, 2023</span>
+                                        <span><i class="far fa-calendar-alt me-1"></i> Deadline: November 30, 2024</span>
                                         <span><i class="fas fa-globe me-1"></i> US Citizens/Permanent Residents/DACA</span>
                                     </div>
                                 </div>

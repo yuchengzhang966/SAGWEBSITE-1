@@ -35,6 +35,59 @@ $page_title = "Tech Interview Prep Guide | SageArk";
 <body class="preload resource-detail-page">
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+
+    <!-- Schema Markup for TechArticle and FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.sageark.io/resources/tech-interview-prep.php"
+      },
+      "headline": "Tech Interview Prep Guide",
+      "description": "A systematic approach to mastering technical interviews for software engineering roles.",
+      "image": "https://www.sageark.io/images/resources/tech-interview.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "datePublished": "2023-11-01",
+      "dateModified": "2025-08-01"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How many months of preparation do I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The ideal preparation timeline depends on your background. For those with strong CS fundamentals, 1-2 months of focused practice may be sufficient. If you're building fundamental skills from scratch, 3-6 months is more realistic. Consistency is more important than total duration—regular practice over time yields better results than intense cramming."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How many LeetCode problems should I solve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality matters more than quantity. Focus on understanding patterns rather than memorizing solutions. We recommend solving 100-150 carefully selected problems that cover different data structures and algorithms. Thoroughly understand each solution before moving on, and revisit problems to ensure retention."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What if I freeze during a coding interview?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is common and something you can prepare for. First, practice regularly in interview-like settings to build comfort. If you do freeze, have a rehearsed recovery strategy: take a deep breath, verbalize what you know about the problem, start with a simple example, or ask a clarifying question. Remember that showing your problem-solving process is often more important than reaching the perfect solution."
+        }
+      }]
+    }
+    </script>
     
     <!-- Hero Section -->
     <section class="page-hero">
@@ -45,7 +98,7 @@ $page_title = "Tech Interview Prep Guide | SageArk";
                 <p class="resources-subtitle">A systematic approach to mastering technical interviews for software engineering roles</p>
                 <div class="resource-metadata">
                     <div class="metadata-item">
-                        <i class="far fa-calendar-alt"></i> Last Updated: November 2024
+                        <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                     </div>
                     <div class="metadata-item">
                         <i class="far fa-clock"></i> Reading Time: 20 minutes

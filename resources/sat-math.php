@@ -43,7 +43,7 @@ $page_title = "SAT Math Problem Set | SageArk";
             <p class="resources-subtitle">Master key concepts, identify common pitfalls, and boost your SAT math score</p>
             <div class="resource-metadata">
                 <div class="metadata-item">
-                    <i class="far fa-calendar-alt"></i> Last Updated: July 2025
+                    <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                 </div>
                 <div class="metadata-item">
                     <i class="far fa-clock"></i> Reading Time: 12 minutes

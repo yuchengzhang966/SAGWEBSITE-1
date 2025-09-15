@@ -45,7 +45,7 @@ $page_title = "Quant Finance Guide | SageArk";
                 <p class="resources-subtitle">A concise introduction to quantitative finance fundamentals and career preparation</p>
                 <div class="resource-metadata">
                     <div class="metadata-item">
-                        <i class="far fa-calendar-alt"></i> Last Updated: November 2024
+                        <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                     </div>
                     <div class="metadata-item">
                         <i class="far fa-clock"></i> Reading Time: 15 minutes

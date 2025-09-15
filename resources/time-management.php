@@ -40,7 +40,7 @@ error_reporting(E_ALL);
                 <!-- Metadata inside hero section -->
                 <div class="resource-metadata">
                     <div class="metadata-item">
-                        <i class="far fa-calendar-alt"></i> Last Updated: July 2023
+                        <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                     </div>
                     <div class="metadata-item">
                         <i class="far fa-clock"></i> Reading Time: 13 minutes

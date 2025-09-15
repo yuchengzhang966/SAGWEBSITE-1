@@ -34,6 +34,28 @@ $page_title = "Top 7 Interview Mistakes and How to Avoid Them | SageArk";
 <body class="preload resource-detail-page">
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
+
+    <!-- Article Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.sageark.io/blog/interview-mistakes.php"
+      },
+      "headline": "Top 7 Interview Mistakes and How to Avoid Them",
+      "description": "Common pitfalls that candidates make during interviews and strategies to present your best self.",
+      "image": "https://www.sageark.io/images/blog/interview-mistakes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "publisher": { "@type": "Organization", "name": "SageArk" },
+      "datePublished": "2024-04-10",
+      "dateModified": "2025-08-01"
+    }
+    </script>
     
     <div class="hero-section bg-primary text-white py-5 mb-5">
         <div class="container">
@@ -44,7 +66,7 @@ $page_title = "Top 7 Interview Mistakes and How to Avoid Them | SageArk";
                     <p class="lead mb-4">Common pitfalls that candidates make during interviews and strategies to present your best self</p>
                     <div class="d-flex justify-content-center align-items-center small text-white-50">
                         <div class="me-3">
-                            <i class="bi bi-clock me-1"></i> Last updated: April 10, 2023
+                            <i class="bi bi-clock me-1"></i> Last updated: August 2025
                         </div>
                         <div>
                             <i class="bi bi-book me-1"></i> 7 min read

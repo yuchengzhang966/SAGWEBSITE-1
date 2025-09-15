@@ -56,6 +56,41 @@ $duration = "125";
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Do I need prior consulting knowledge to join this program?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, prior consulting knowledge is not required. Our program is designed to take you from the fundamentals to advanced case interview skills. While some basic business understanding is helpful, we've successfully worked with students from various backgrounds including liberal arts, engineering, and sciences. If you're completely new to business concepts, we recommend reviewing some basic business terminology before starting the program."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How is this program different from using case interview books?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While books provide theoretical knowledge, our program offers personalized feedback and real-time coaching that books simply cannot. The live practice with experienced consultants who have conducted actual interviews at top firms allows you to refine your approach, correct bad habits early, and learn the subtle elements of successful case interviews. Our structured curriculum also ensures you systematically build your skills rather than practicing randomly."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is your success rate for placements?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Over 85% of students who complete our full program receive at least one offer from a consulting firm, with about 60% receiving offers from MBB firms (McKinsey, Bain, BCG). However, outcomes depend significantly on factors including academic background, work experience, and target firms. Our program significantly improves your chances, but success ultimately depends on your dedication to the preparation process and how well you implement the feedback provided."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How much time should I commit to this program weekly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For optimal results, we recommend dedicating 8-10 hours per week to the program. This includes attending live sessions (2-3 hours), individual practice (3-4 hours), and completing assignments (2-3 hours). Students who put in consistent practice throughout the program see the best results. The program is designed to be compatible with full-time studies or work, with evening and weekend scheduling options."
+        }
+      }]
+    }
+    </script>
 
     <!-- Include hero section template -->
     <?php include '../includes/hero-service.php'; ?>

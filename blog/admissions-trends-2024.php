@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Page title
-$page_title = "5 College Admissions Trends to Watch in 2024 | SageArk";
+$page_title = "6 College Admissions Trends to Watch in 2024 | SageArk";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,16 +35,41 @@ $page_title = "5 College Admissions Trends to Watch in 2024 | SageArk";
     <!-- Include the navigation -->
     <?php include '../includes/nav.php'; ?>
     
+    <!-- Article Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.sageark.io/blog/admissions-trends-2024.php"
+      },
+      "headline": "6 College Admissions Trends to Watch in 2024",
+      "description": "How test-optional policies, holistic review, and other emerging trends are reshaping college admissions.",
+      "image": "https://www.sageark.io/images/blog/college-trend.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SageArk"
+      },
+      "datePublished": "2024-05-15",
+      "dateModified": "2025-08-01"
+    }
+    </script>
+    
     <div class="hero-section bg-primary text-white py-5 mb-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 mx-auto text-center">
                     <span class="badge bg-accent text-white mb-3">TRENDS</span>
-                    <h1 class="display-4 fw-bold mb-3">5 College Admissions Trends to Watch in 2024</h1>
+                    <h1 class="display-4 fw-bold mb-3">6 College Admissions Trends to Watch in 2024</h1>
                     <p class="lead mb-4">How test-optional policies, holistic review, and other emerging trends are reshaping college admissions</p>
                     <div class="d-flex justify-content-center align-items-center small text-white-50">
                         <div class="me-3">
-                            <i class="bi bi-clock me-1"></i> Last updated: May 15, 2023
+                            <i class="bi bi-clock me-1"></i> Last updated: August 2025
                         </div>
                         <div>
                             <i class="bi bi-book me-1"></i> 8 min read
@@ -145,6 +170,20 @@ $page_title = "5 College Admissions Trends to Watch in 2024 | SageArk";
                                 </div>
                                 <div class="card-body">
                                     <p>Changes in early decision policies, including more flexible commitment terms and increased financial aid transparency, are making this option more accessible to diverse applicant pools.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="card-header bg-light">
+                                    <h3 class="card-title fw-bold mb-0">
+                                        <i class="bi bi-6-circle text-primary me-2"></i>
+                                        Navigating the Impact of AI
+                                    </h3>
+                                </div>
+                                <div class="card-body">
+                                    <p>Admissions offices are adapting to the rise of AI in essay writing, leading to an even greater emphasis on authentic voice and personal reflection. Some colleges are creating AI-resistant prompts to better gauge a student's true writing and thinking abilities. <a href="/blog/ai-in-admissions.php">Learn more here.</a></p>
                                 </div>
                             </div>
                         </div>

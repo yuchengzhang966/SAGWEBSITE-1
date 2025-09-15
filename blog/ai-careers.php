@@ -44,7 +44,7 @@ $page_title = "The Rise of AI: Career Opportunities for Recent Graduates | SageA
                     <p class="lead mb-4">Exploring the growing demand for AI talent and how students can position themselves for these roles</p>
                     <div class="d-flex justify-content-center align-items-center small text-white-50">
                         <div class="me-3">
-                            <i class="bi bi-clock me-1"></i> Last updated: April 28, 2023
+                            <i class="bi bi-clock me-1"></i> Last updated: August 2025
                         </div>
                         <div>
                             <i class="bi bi-book me-1"></i> 10 min read
@@ -77,64 +77,20 @@ $page_title = "The Rise of AI: Career Opportunities for Recent Graduates | SageA
                 
                 <div class="mb-5">
                     <h2 class="fw-bold mb-4">Emerging AI Career Paths</h2>
-                    
-                    <div class="row row-cols-1 g-4 mb-4">
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-header bg-light">
-                                    <h3 class="card-title fw-bold mb-0">
-                                        <i class="bi bi-1-circle text-primary me-2"></i>
-                                        Machine Learning Engineer
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Design and implement AI algorithms and systems, focusing on model development and deployment. Required skills include Python, deep learning frameworks, and strong mathematics foundation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-header bg-light">
-                                    <h3 class="card-title fw-bold mb-0">
-                                        <i class="bi bi-2-circle text-primary me-2"></i>
-                                        AI Product Manager
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Bridge technical and business aspects of AI products, requiring both technical understanding and strong business acumen.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-header bg-light">
-                                    <h3 class="card-title fw-bold mb-0">
-                                        <i class="bi bi-3-circle text-primary me-2"></i>
-                                        AI Ethics Specialist
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Focus on ethical implications of AI systems, ensuring responsible development and deployment while considering societal impact.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col">
-                            <div class="card h-100">
-                                <div class="card-header bg-light">
-                                    <h3 class="card-title fw-bold mb-0">
-                                        <i class="bi bi-4-circle text-primary me-2"></i>
-                                        AI Research Scientist
-                                    </h3>
-                                </div>
-                                <div class="card-body">
-                                    <p>Advance the field through research and development of new AI technologies and methodologies.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    <p>The AI job market offers diverse opportunities for recent graduates, each requiring unique skills and offering different growth trajectories. Here are four key career paths that are experiencing significant demand:</p>
+
+                    <h3 class="fw-bold mt-4 mb-3">Machine Learning Engineer</h3>
+                    <p>At the heart of AI implementation lies the machine learning engineer, responsible for designing and implementing AI algorithms and systems. This role focuses heavily on model development and deployment, requiring proficiency in Python, deep learning frameworks like TensorFlow and PyTorch, and a strong mathematics foundation. Machine learning engineers bridge the gap between research and production, ensuring AI models perform reliably at scale.</p>
+
+                    <h3 class="fw-bold mt-4 mb-3">AI Product Manager</h3>
+                    <p>The AI product manager serves as a crucial bridge between technical teams and business stakeholders. This role requires both technical understanding of AI capabilities and limitations, as well as strong business acumen to identify market opportunities and guide product strategy. AI product managers must translate complex technical concepts into business value while ensuring user needs are met.</p>
+
+                    <h3 class="fw-bold mt-4 mb-3">AI Ethics Specialist</h3>
+                    <p>As AI systems become more prevalent, the need for ethical oversight grows exponentially. AI ethics specialists focus on the ethical implications of AI systems, ensuring responsible development and deployment while considering broader societal impact. This emerging field combines technical knowledge with philosophy, policy, and social sciences to address bias, fairness, and transparency in AI systems.</p>
+
+                    <h3 class="fw-bold mt-4 mb-3">AI Research Scientist</h3>
+                    <p>For those passionate about advancing the field itself, AI research scientist positions offer the opportunity to develop new AI technologies and methodologies. These roles typically require advanced degrees and involve publishing research, collaborating with academic institutions, and pushing the boundaries of what's possible with artificial intelligence.</p>
                 </div>
                 
                 <div class="mb-5">

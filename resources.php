@@ -491,10 +491,22 @@
                 <!-- Blog Post 1 -->
                 <div class="blog-card">
                     <div class="blog-image">
+                        <img src="images/blog/hidden-curriculum.jpg" alt="A person navigating a complex maze, representing the hidden curriculum.">
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Hidden Curriculum: Unspoken Rules for Success</h3>
+                        <p>Discover the unwritten rules of college and early career success that are critical but rarely taught.</p>
+                        <a href="blog/hidden-curriculum.php" class="blog-link">Read Article →</a>
+                    </div>
+                </div>
+
+                <!-- Blog Post 1 -->
+                <div class="blog-card">
+                    <div class="blog-image">
                         <img src="images/blog/college-trend.jpg" alt="College Admissions Trends">
                     </div>
                     <div class="blog-content">
-                        <h3>5 College Admissions Trends to Watch in 2024</h3>
+                        <h3>5 College Admissions Trends to Watch</h3>
                         <p>How test-optional policies, holistic review, and other emerging trends are reshaping college admissions.</p>
                         <a href="blog/admissions-trends-2024.php" class="blog-link">Read Article →</a>
                     </div>
@@ -509,18 +521,6 @@
                         <h3>The Rise of AI: Career Opportunities for Recent Graduates</h3>
                         <p>Exploring the growing demand for AI talent and how students can position themselves for these roles.</p>
                         <a href="blog/ai-careers.php" class="blog-link">Read Article →</a>
-                    </div>
-                </div>
-                
-                <!-- Blog Post 3 -->
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="images/blog/interview-mistakes.jpg" alt="Interview Mistakes">
-                    </div>
-                    <div class="blog-content">
-                        <h3>Top 7 Interview Mistakes and How to Avoid Them</h3>
-                        <p>Common pitfalls that candidates make during interviews and strategies to present your best self.</p>
-                        <a href="blog/interview-mistakes.php" class="blog-link">Read Article →</a>
                     </div>
                 </div>
             </div>

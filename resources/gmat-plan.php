@@ -43,7 +43,7 @@ $page_title = "GMAT 8-Week Study Plan | SageArk";
             <p class="resources-subtitle">A structured approach to maximize your GMAT score in 8 weeks</p>
             <div class="resource-metadata">
                 <div class="metadata-item">
-                    <i class="far fa-calendar-alt"></i> Last Updated: September 2024
+                    <i class="far fa-calendar-alt"></i> Last Updated: August 2025
                 </div>
                 <div class="metadata-item">
                     <i class="far fa-clock"></i> Reading Time: 15 minutes

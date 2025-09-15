@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success Stories - SageArk</title>
+    <title>Student Success Stories | Career & College Coaching | SageArk</title>
+    <meta name="description" content="Read real success stories from students who achieved their career and educational goals with SageArk's expert coaching, from Ivy League admissions to jobs at top tech and finance firms.">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
@@ -23,6 +24,21 @@
 <body class="preload">
     <!-- Include the navigation -->
     <?php include 'includes/nav.php'; ?>
+
+    <!-- Schema Markup for WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Student Success Stories | Career & College Coaching | SageArk",
+      "description": "Real success stories from students who achieved their career and educational goals with SageArk's expert coaching, from Ivy League admissions to jobs at top tech and finance firms.",
+      "url": "https://www.sageark.io/success-stories.php",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SageArk"
+      }
+    }
+    </script>
 
  
     <!-- Hero Section -->
